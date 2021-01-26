@@ -1,2 +1,2 @@
 # VacFind-site
-Find a COVID Vaccene near you
+Find a COVID vaccine near you
