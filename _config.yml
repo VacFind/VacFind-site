@@ -52,3 +52,5 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+contact:
+  email: contact@vacfind.org
