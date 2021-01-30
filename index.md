@@ -29,4 +29,4 @@ Alaska
 
 We are entirely volunteer-run and all our code is open source. If you want to help out, shoot us [an email][1]!
 
-[1]: mailto:{{site.contact.email}}
+[1]: mailto:{{site.email}}
