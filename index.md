@@ -29,4 +29,6 @@ Alaska
 
 We are entirely volunteer-run and all our code is open source. If you want to help out, shoot us [an email][1]!
 
+want to add your vaccination or testing site? [click here](https://arcg.is/10S1ib)
+
 [1]: mailto:{{site.email}}

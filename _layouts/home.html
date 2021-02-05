@@ -7,6 +7,19 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
+  <div id="mapid" style="height: 500px"></div>
   {{ content }}
 
 </div>
+<script>
+
+//create map with a view of the lower 48 states
+  var mymap = L.map('mapid').setView([39.198, -100.327], 4);
+
+    L.esri.basemapLayer('Streets').addTo(mymap);
+
+    L.esri.featureLayer({
+        url: 'https://services.arcgis.com/8ZpVMShClf8U8dae/arcgis/rest/services/Covid19_Vaccination_Locations/FeatureServer/0'
+      }).addTo(mymap);
+    
+</script>
