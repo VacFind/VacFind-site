@@ -21,6 +21,11 @@ layout: default
 
 	<script>
 		var Airtable = require('airtable');
+
+		let linkListElement = document.getElementById("link-list");
+		linkListElement.innerText = "Loading..."
+
+
 		// Get a base ID and use a read-only API key
 		var base = new Airtable({ apiKey: 'keyyCSADD61J0D4wQ' }).base('appGzEQkD3QySIDvj');
 		let states = {
@@ -84,7 +89,6 @@ layout: default
 			"WI": "Wisconsin",
 			"WY": "Wyoming"
 		}
-		let linkListElement = document.getElementById("link-list");
 
 		let by_state = {}
 
@@ -126,7 +130,8 @@ layout: default
 		loadLinks()
 
 		const populatePage = () => {
-
+			linkListElement.innerText = ""
+			
 			//create headings for each state
 			for (state in states) {
 				if (!by_state[state]) {
