@@ -99,7 +99,7 @@ layout: default
 				sort: [
 					{ field: 'group', direction: 'asc' }
 				],
-				filterByFormula: "AND(NOT({link_type} = 'data source'), NOT({public} = FALSE()))"
+				filterByFormula: "AND(NOT(Find('raw data', {link_type})), {public} = TRUE())"
 			}).eachPage(function page(records, fetchNextPage) {
 
 				records.forEach(function (record) {
