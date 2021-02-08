@@ -113,11 +113,13 @@ layout: default
 					link.dataset.recordId = record.getId();
 					listitem.appendChild(link);
 
-					if (!by_group[group]) {
-						by_group[group] = []
-					}
+					if (record.get("public")){
+						if (!by_group[group]) {
+							by_group[group] = []
+						}
 
-					by_group[group].push(listitem)
+						by_group[group].push(listitem)
+					}
 				});
 
 				fetchNextPage();
