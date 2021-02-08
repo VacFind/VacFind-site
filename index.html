@@ -98,7 +98,7 @@ layout: default
 
 			base('links').select({
 				sort: [
-					{ field: 'state', direction: 'asc' }
+					{ field: 'group', direction: 'asc' }
 				],
 				filterByFormula: "NOT({link_type} = 'data source')"
 			}).eachPage(function page(records, fetchNextPage) {
