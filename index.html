@@ -99,7 +99,8 @@ layout: default
 				sort: [
 					{ field: 'group', direction: 'asc' }
 				],
-				filterByFormula: "AND(NOT(Find('raw data', {link_type})), {public} = TRUE())"
+				//only get public results that are not raw data or resources for covid tracking groups
+				filterByFormula: "AND(NOT(OR(Find('raw data', {link_type}), Find('resource', {link_type}))), {public} = TRUE())"
 			}).eachPage(function page(records, fetchNextPage) {
 
 				records.forEach(function (record) {
