@@ -99,7 +99,7 @@ layout: default
 				sort: [
 					{ field: 'group', direction: 'asc' }
 				],
-				filterByFormula: "NOT({link_type} = 'data source')"
+				filterByFormula: "AND(NOT({link_type} = 'data source'), NOT({public} = FALSE()))"
 			}).eachPage(function page(records, fetchNextPage) {
 
 				records.forEach(function (record) {
@@ -113,13 +113,11 @@ layout: default
 					link.dataset.recordId = record.getId();
 					listitem.appendChild(link);
 
-					if (record.get("public")){
-						if (!by_group[group]) {
-							by_group[group] = []
-						}
-
-						by_group[group].push(listitem)
+					if (!by_group[group]) {
+						by_group[group] = []
 					}
+
+					by_group[group].push(listitem)
 				});
 
 				fetchNextPage();
