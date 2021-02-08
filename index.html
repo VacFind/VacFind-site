@@ -105,10 +105,11 @@ layout: default
 				records.forEach(function (record) {
 					const url = record.get("url");
 					const group = record.get('group');
+					const title = record.get('link_title');
 
 					let listitem = document.createElement("li");
 					let link = document.createElement("a");
-					link.innerText = url;
+					link.innerText = title? title : url;
 					link.href = url;
 					link.dataset.recordId = record.getId();
 					listitem.appendChild(link);
