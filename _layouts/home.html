@@ -9,4 +9,12 @@ layout: default
 
   {{ content }}
 
+  <h1>Links by State</h1>
+  <div id="link-list"></div>
+
+  <script>
+    var Airtable = require('airtable');
+    // Get a base ID and use a read-only API key
+    var base = new Airtable({ apiKey: 'keyyCSADD61J0D4wQ' }).base('appGzEQkD3QySIDvj');
+  </script>
 </div>
