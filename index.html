@@ -28,7 +28,7 @@ layout: default
 
 		// Get a base ID and use a read-only API key
 		var base = new Airtable({ apiKey: 'keyyCSADD61J0D4wQ' }).base('appGzEQkD3QySIDvj');
-		let states = {
+		let groups = {
 			"USA": "National",
 			"AL": "Alabama",
 			"AK": "Alaska",
@@ -92,7 +92,7 @@ layout: default
 			"ETC": "Miscellaneous"
 		}
 
-		let by_state = {}
+		let by_group = {}
 
 		var loadLinks = async () => {
 
@@ -105,7 +105,7 @@ layout: default
 
 				records.forEach(function (record) {
 					const url = record.get("url");
-					const state = record.get('state');
+					const group = record.get('group');
 
 					let listitem = document.createElement("li");
 					let link = document.createElement("a");
@@ -114,11 +114,11 @@ layout: default
 					link.dataset.recordId = record.getId();
 					listitem.appendChild(link);
 
-					if (!by_state[state]) {
-						by_state[state] = []
+					if (!by_group[group]) {
+						by_group[group] = []
 					}
 
-					by_state[state].push(listitem)
+					by_group[group].push(listitem)
 				});
 
 				fetchNextPage();
@@ -133,21 +133,21 @@ layout: default
 
 		const populatePage = () => {
 			linkListElement.innerText = ""
-			
-			//create headings for each state
-			for (state in states) {
-				if (!by_state[state]) {
-					by_state[state] = []
+
+			//create headings for each group
+			for (group in groups) {
+				if (!by_group[group]) {
+					by_group[group] = []
 				}
 
-				if (by_state[state].length > 0) {
+				if (by_group[group].length > 0) {
 
 					let listheading = document.createElement("h3");
-					listheading.innerText = states[state];
+					listheading.innerText = groups[group];
 
 					let list = document.createElement("ul");
-					list.id = state
-					for (let link of by_state[state]) {
+					list.id = group
+					for (let link of by_group[group]) {
 						list.appendChild(link)
 					}
 
