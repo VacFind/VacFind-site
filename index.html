@@ -7,10 +7,17 @@ layout: default
 	<h1 class="page-heading">{{ page.title }}</h1>
 	{% endif %}
 
-	{{ content }}
-
+	<p>Hi! We’re VacFind! Our goal is to make COVID-19 vaccinations as easy and accessible as possible.</p>
+	
+	<p>Once we’re up and running, this site will let you search for your location anywhere in the US and tell you the locations of the nearest places in your area that have COVID vaccines available and whether or not you’re eligible.</p>
+	
+	<p>We’re moving as fast as we can, but the task isn’t easy. We’re still building a lot of important functionality. In the meantime, we recommend you check out the following sites that tell you vaccine locations for each state:</p>
+	
 	<h1>Links by State</h1>
 	<div id="link-list"></div>
+
+
+	<p>We are entirely volunteer-run and all our code is open source. If you want to help out, shoot us <a href="mailto:{{site.email}}">an email</a>!</p>
 
 	<script>
 		var Airtable = require('airtable');
