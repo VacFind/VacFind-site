@@ -104,7 +104,8 @@ layout: default
 
 				records.forEach(function (record) {
 					const url = record.get("url");
-					const group = record.get('group');
+					//the value of the group this belongs to, default to the "Miscellaneous" group if blank
+					let group = record.get('group') || "ETC";
 					const title = record.get('link_title');
 
 					let listitem = document.createElement("li");
