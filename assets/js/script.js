@@ -72,14 +72,13 @@ let groups = {
 
 let by_group = {}
 
-var loadLinks = async () => {
+var loadLinks = async (filterFormula) => {
 
 	base('links').select({
 		sort: [
 			{ field: 'group', direction: 'asc' }
 		],
-		//only get public results that are not raw data or resources for covid tracking groups
-		filterByFormula: "AND(NOT(OR(Find('raw data', {link_type}), Find('resource', {link_type}))), {public} = TRUE())"
+		filterByFormula: filterFormula
 	}).eachPage(function page(records, fetchNextPage) {
 
 		records.forEach(function (record) {
@@ -110,7 +109,7 @@ var loadLinks = async () => {
 		}
 	});
 };
-loadLinks()
+loadLinks("AND(NOT(OR(Find('raw data', {link_type}), Find('resource', {link_type}))), {public} = TRUE())")
 
 const populatePage = () => {
 	linkListElement.innerText = ""
