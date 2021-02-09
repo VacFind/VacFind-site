@@ -74,65 +74,21 @@ let by_group = {}
 
 var loadLinks = async (filterFormula) => {
 
-	base('links').select({
+	let allrecords = []
+
+	await base('links').select({
 		sort: [
 			{ field: 'group', direction: 'asc' }
 		],
 		filterByFormula: filterFormula
 	}).eachPage(function page(records, fetchNextPage) {
-
-		records.forEach(function (record) {
-			const url = record.get("url");
-			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
-			let group = record.get('group') || "ETC";
-			const title = record.get('link_title');
-
-			let listitem = document.createElement("li");
-			let link = document.createElement("a");
-			link.innerText = title? title : url;
-			link.href = url;
-			link.dataset.recordId = record.getId();
-			listitem.appendChild(link);
-
-			if (!by_group[group]) {
-				by_group[group] = []
-			}
-
-			by_group[group].push(listitem)
-		});
-
+		allrecords.push(records)
 		fetchNextPage();
 	}, function done(error) {
-		populatePage()
 		if (error) {
 			throw new Error(error)
 		}
 	});
-};
-loadLinks("AND(NOT(OR(Find('raw data', {link_type}), Find('resource', {link_type}))), {public} = TRUE())")
 
-const populatePage = () => {
-	linkListElement.innerText = ""
-
-	//create headings for each group
-	for (group in groups) {
-		if (!by_group[group]) {
-			by_group[group] = []
-		}
-
-		if (by_group[group].length > 0) {
-
-			let listheading = document.createElement("h3");
-			listheading.innerText = groups[group];
-
-			let list = document.createElement("ul");
-			list.id = group
-			for (let link of by_group[group]) {
-				list.appendChild(link)
-			}
-
-			linkListElement.appendChild(listheading);
-			linkListElement.appendChild(list);
-		}
-	}
+	return allrecords
 };
