@@ -105,7 +105,7 @@ var loadLinks = async (filterFormula) => {
 	}, function done(error) {
 		populatePage()
 		if (error) {
-			console.error(error);
+			throw new Error(error)
 		}
 	});
 };
