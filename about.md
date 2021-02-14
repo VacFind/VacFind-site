@@ -4,12 +4,12 @@ title: About
 permalink: /about
 ---
 
-## Who are we?
+## Who we are
 
 We are a small team of student volunteers based near Portland, OR. Our goal with VacFind is to create high-quality, open-source tools and resources to make information about COVID-19 Vaccines as easy and accessible for as many people as possible.
 
 
-## What do we do?
+## What we do
 
 There are three main ways that we hope to be able to help:
 
