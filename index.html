@@ -107,16 +107,16 @@ layout: default
 		records.then((results) => {
 			results.forEach(function (record) {
 				console.log(record.fields)
-				const url = record.get("url");
+				const url = record.fields.url;
 				//the value of the group this belongs to, default to the "Miscellaneous" group if blank
-				let group = record.get('group') || "ETC";
-				const title = record.get('link_title');
+				let group = record.fields.group || "ETC";
+				const title = record.fields.link_title;
 
 				let listitem = document.createElement("li");
 				let link = document.createElement("a");
 				link.innerText = title ? title : url;
 				link.href = url;
-				link.dataset.recordId = record.getId();
+				link.dataset.recordId = record.fields.id;
 				listitem.appendChild(link);
 
 				if (!by_group[group]) {
