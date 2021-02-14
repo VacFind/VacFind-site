@@ -1,4 +1,5 @@
-var Airtable = require('airtable');
+import './asyncAirtable-beta.min.js';
+const asyncAirtable = new AsyncAirtable("keyyCSADD61J0D4wQ", "appGzEQkD3QySIDvj");//, { ...CONFIG }
 
 let linkListElement = document.getElementById("link-list");
 linkListElement.innerText = "Loading..."
