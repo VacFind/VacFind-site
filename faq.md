@@ -5,7 +5,7 @@ permalink: /faq
 ---
 # How can I help?
 
-If you have a service like this for people already, get in contact with us at [contact@vacfind.org][1]!
+If you have a service like this for people already, get in contact with us at [{{site.contact.email}}][1]!
 We are commited to bringing easy to access information such as where to get a vaccine to the general public.
 Have some spare time on your hands?
 [Email us][1]!
@@ -23,7 +23,7 @@ Don't worry! You can also [donate to us][2].
 
 ## Contact Us
 
-To get into contact, email us at [contact@vacfind.org][1].
+To get into contact, email us at [{{site.contact.email}}][1].
 
-[1]: mailto:contact@vacfind.org
-[2]: about:blank
+[1]: mailto:{{site.contact.email}}
+[2]: {{site.donations}}
