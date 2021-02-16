@@ -6,7 +6,7 @@ permalink: /faq
 
 ## How can I help?
 
-### As a user of the site: 
+### As a user of the site:
 We have a donation link. You can also share this site on social media [insert links to popular ones here] to spread the word
 
 ### As a Developer:
@@ -21,7 +21,7 @@ Have some spare time on your hands?
 
 Hospitals and clincs administering vaccines are our end targets.
 We can add your data to our site and help bring people to you.
-It will also relieve your databases and phone calls as we can provide this directly to your customers.
+We will also retrieve your databases, relieving phone calls as we can provide this information to your customers through interactive tools.
 All we need is up to date information in whatever form you find easiest.
 
 
