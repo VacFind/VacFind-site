@@ -13,7 +13,7 @@ We are a small team of student volunteers based near Portland, OR. Our goal with
 
 There are three main ways that we hope to be able to help:
 
-1. Creating a single list of links to all known COVID vaccination, testing, and information sources for all US States, counties, and territories so they can be easily found by those who need them
-2. Creating open source tools and documentation to help volunteer groups start their own state or local vaccination tracking and informational web pages
-3. Reaching out and maintaining relationships with the creators of other vaccine tracking tools to help facilitate the exchange of information between groups, so information and resources can be effectively shared
+1. Creating an open-source, national public resource to make it easy and accessible for anyone to get a COVID vaccine.
+2. Gathering and listing open source projects, data sources, and other resources for volunteers and developers to bring to their own communities
+3. Facilitating collaboration between volunteers so time, information, and resources can be used most effectively
 
