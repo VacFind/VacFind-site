@@ -56,7 +56,10 @@ contact:
   email: contact@vacfind.org
 social:
   discord: https://discord.gg/Mcre8FSkNV
-donations: 
+  # link to the main opencollective page
+  opencollective: https://opencollective.com/vacfind
+# submit a donation link
+donations: https://opencollective.com/vacfind/donate
 
 data:
   link-corrections: https://docs.google.com/forms/d/e/1FAIpQLSfKmevEYl76TwxoTFhHRrUMxDgwnBqzDFAuJJb1IiH15dR3fg/viewform?usp=sf_link
