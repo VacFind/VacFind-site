@@ -21,7 +21,7 @@ layout: default
 	<p>If you know about links to resources in your state that are not included here or notice information that is inaccurate, feel free to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKmevEYl76TwxoTFhHRrUMxDgwnBqzDFAuJJb1IiH15dR3fg/viewform?usp=sf_link">submit an addition or a correction</a>.</p>
 
 	<script type="module" >
-		import { loadLinks } from '/assets/js/script.js';
+		import { loadLinks, retrieveFromStorage } from '/assets/js/script.js';
 
 
 		let linkListElement = document.getElementById("link-list");
@@ -91,6 +91,7 @@ layout: default
 			"ETC": "Miscellaneous"
 		}
 
+		let stored_records = retrieveFromStorage()
 		let by_group = {}
 			
 		let filter = {
@@ -102,14 +103,15 @@ layout: default
 				},
 				public: true
 			}
+		
 		let records = loadLinks(filter);
 
-		records.then((results) => {
-			for(let result of results) {
-				processRecord(result)
+		const processRecords = (records) => {
+			for (let record of records) {
+				processRecord(record)
 			}
 			populatePage()
-		});
+		}
 
 		const processRecord = (record) => {
 			// console.log(record.fields)
@@ -158,5 +160,13 @@ layout: default
 				}
 			}
 		};
+
+		//populate the page if theres a value from local storage
+		if (stored_records) {
+			processRecords(stored_records)
+		}
+
+		records.then((results) => processRecords(results));
+		
 	</script>
 </div>

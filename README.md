@@ -1,2 +1,5 @@
 # VacFind-site
-Find a COVID vaccine near you
+![Financial Contributors badge](https://opencollective.com/vacfind/tiers/badge.svg)
+
+
+VacFind 

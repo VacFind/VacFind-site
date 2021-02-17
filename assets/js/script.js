@@ -11,5 +11,18 @@ export var loadLinks = async (filterOpts) => {
 			{ field: 'group', direction: 'asc' }
 		],
 		where: filterOpts
-	})
+	}).then( (results) => persistToStorage(results))
 };
+
+const persistToStorage = (results) => {
+	console.log("persisting to storage")
+	if (results) {
+		localStorage.setItem("vacFind-links", JSON.stringify(results));
+	}
+	return results
+}
+
+export const retrieveFromStorage = () => {
+	console.log("retrieving from storage")
+	return JSON.parse(localStorage.getItem("vacFind-links"))
+}
