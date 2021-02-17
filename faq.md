@@ -7,10 +7,12 @@ permalink: /faq
 ## How can I help?
 
 ### As a user of the site:
-We have a donation link. You can also share this site on social media [insert links to popular ones here] to spread the word
+If you found VacFind useful and want to support us, the most helpful thing you can do is to share a link our site on social media. This allows us to help more people find vaccines.
+
+You can also join our [discord server]({{site.social.discord}}) or help us reach our funding goals on our [OpenCollective page][2].
 
 ### As a Developer:
-we are on [github](https://github.com/{{site.github_username}}), feel free to help us tackle open issues or join us on [discord]({{site.social.discord}}) to get to know our team!
+We are on [github](https://github.com/{{site.github_username}})! Feel free to help us tackle open issues or join us on [discord]({{site.social.discord}}) to come chat with our community!
 
 If you have a service like this for people already, get in contact with us at [{{site.contact.email}}][1]!
 We are commited to bringing easy to access information such as where to get a vaccine to the general public.
