@@ -31,11 +31,13 @@ We use the [mapping layers provided by GISCorps]({{site.data.map-source}}) as ou
 
 ## Do you have a donation link?
 
-Yes! You can [support us on OpenCollective][2].
+Yes! You can support VacFind with a tax-deductible donation using [our  OpenCollective page][2].
+
+We encourage anyone who has found VacFind useful to consider donating as it allows us to promote our service and make our data available to anyone who needs it. 
 
 ## Contact Us
 
-To get into contact, email us at [{{site.contact.email}}][1].
+If you would like to get in touch with us, you can come chat on our [discord server]({{site.social.discord}}) or reach out via [email][1]. 
 
 [1]: mailto:{{site.contact.email}}
-[2]: {{site.donations}}
+[2]: {{site.social.opencollective}}
