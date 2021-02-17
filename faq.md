@@ -19,10 +19,7 @@ Have some spare time on your hands?
 
 ### As a Hospital
 
-Hospitals and clincs administering vaccines are our end targets.
-We can add your data to our site and help bring people to you.
-We will also retrieve your databases, relieving phone calls as we can provide this information to your customers through interactive tools.
-All we need is up to date information in whatever form you find easiest.
+If your hospital or other care provider would like to use VacFind to display your vaccine availability to end users, feel free to [email us][1] and we can help get your data integrated into our platform
 
 
 ## How do I submit a new link or correct an existing one?
