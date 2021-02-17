@@ -1,5 +1,5 @@
 import './asyncAirtable-beta.min.js';
-const asyncAirtable = new AsyncAirtable("keyyCSADD61J0D4wQ", "appGzEQkD3QySIDvj");//, { ...CONFIG }
+const asyncAirtable = new AsyncAirtable("keyyCSADD61J0D4wQ", "appGzEQkD3QySIDvj", {baseURL: "https://api.vacfind.org/v0"});//, { ...CONFIG }
 
 
 export var loadLinks = async (filterOpts) => {
