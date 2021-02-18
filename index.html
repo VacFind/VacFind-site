@@ -166,7 +166,10 @@ layout: default
 			processRecords(stored_records)
 		}
 
-		records.then((results) => processRecords(results));
+		records.then((results) => {
+			by_group = {} //clear out anything that may be present from localstorage
+			processRecords(results)
+		});
 		
 	</script>
 </div>
