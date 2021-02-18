@@ -1,5 +1,5 @@
 # VacFind-site
-![Financial Contributors on OpenCollective](https://opencollective.com/vacfind/tiers/badge.svg) ![Discord](https://img.shields.io/discord/811060882917818408)
+[![Financial Contributors on OpenCollective](https://opencollective.com/vacfind/tiers/badge.svg)](https://opencollective.com/vacfind) [![Discord](https://img.shields.io/discord/811060882917818408)](https://discord.gg/Mcre8FSkNV)
 
 This is the public website for VacFind, a website that aims to help make information about COVID vaccines more accessible so more people can get vaccinated.
 
