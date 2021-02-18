@@ -10,9 +10,7 @@
 	{%- if social.flickr_username -%}<li><a href="https://www.flickr.com/photos/{{ social.flickr_username| cgi_escape | escape }}"><svg class="svg-icon">
 				<use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use>
 			</svg> <span class="username">{{ social.flickr_username| escape }}</span></a></li>{%- endif -%}
-	{%- if social.github_username -%}<li><a href="https://github.com/{{ social.github_username| cgi_escape | escape }}"><svg class="svg-icon">
-				<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-			</svg> <span class="username">{{ social.github_username| escape }}</span></a></li>{%- endif -%}
+	{%- if social.github_username -%}<li><a href="https://github.com/{{ social.github_username| cgi_escape | escape }}"><img class="svg-icon" src="{{ '/assets/images/fontawesome-social-icons/github-brands.svg' | relative_url }}"> <span class="username">{{ social.github_username| escape }}</span></a></li>{%- endif -%}
 	{%- if social.instagram_username -%}<li><a href="https://instagram.com/{{ social.instagram_username| cgi_escape | escape }}"><svg class="svg-icon">
 				<use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
 			</svg> <span class="username">{{ social.instagram_username| escape }}</span></a></li>{%- endif -%}
@@ -37,4 +35,8 @@
 	{%- if social.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon">
 				<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 			</svg> <span>{{ social.rss | escape }}</span></a></li>{%- endif -%}
+	{%- if social.discord -%}<li><a href="{{ social.discord }}"><img class="svg-icon" src="{{ '/assets/images/fontawesome-social-icons/discord-brands.svg' | relative_url }}">
+			<span>Discord</span></a></li>{%- endif -%}
 </ul>
+
+<p></p>
