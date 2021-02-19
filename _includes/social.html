@@ -37,6 +37,8 @@
 			</svg> <span>{{ social.rss | escape }}</span></a></li>{%- endif -%}
 	{%- if social.discord -%}<li><a href="{{ social.discord }}"><img class="svg-icon" src="{{ '/assets/images/fontawesome-social-icons/discord-brands.svg' | relative_url }}">
 			<span>Discord</span></a></li>{%- endif -%}
+	{%- if social.opencollective_username -%}<li><a href="https://opencollecttive.com/{{ social.opencollective_username }}"><img class="svg-icon" src="{{ '/assets/images/opencollective-icon.svg' | relative_url }}">
+			<span>OpenCollective</span></a></li>{%- endif -%}
 </ul>
 
 <p></p>
