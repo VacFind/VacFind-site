@@ -54,3 +54,5 @@ theme: minima
 #   - vendor/ruby/
 contact:
   email: contact@vacfind.org
+social:
+  discord: https://discord.vacfind.org
