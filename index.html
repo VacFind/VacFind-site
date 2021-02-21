@@ -98,7 +98,8 @@ layout: default
 				$not: {
 					$or: [
 						{ $textFind: ["dev resource", { $fieldName: 'category' }] },
-						{ $textFind: ["useless", { $fieldName: 'category' }] }
+						{ $textFind: ["useless", { $fieldName: 'category' }] },
+						{ $textFind: ["INTL", { $fieldName: 'group' }] }
 					]
 				},
 				public: true
