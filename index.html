@@ -97,8 +97,8 @@ layout: default
 		let filter = {
 				$not: {
 					$or: [
-						{ $textFind: ["raw data", { $fieldName: 'link_type' }] },
-						{ $textFind: ["resource", { $fieldName: 'link_type' }] }
+						{ $textFind: ["dev resource", { $fieldName: 'category' }] },
+						{ $textFind: ["useless", { $fieldName: 'category' }] }
 					]
 				},
 				public: true
