@@ -13,8 +13,9 @@ layout: default
 	
 	<p>We’re moving as fast as we can, but the task isn’t easy. We’re still building a lot of important functionality. In the meantime, we recommend you check out the following sites that tell you vaccine locations for each region:</p>
 
-	<div id="link-list"></div>
+	<p>Official government-run sites are listed in <strong>bold</strong> text.</p>
 
+	<div id="link-list"></div>
 
 	<p>We are entirely volunteer-run and all our code is open source. If you want to help out, shoot us <a href="mailto:{{site.email}}">an email</a>!</p>
 
@@ -119,11 +120,13 @@ layout: default
 			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
 			let group = record.fields.group || "ETC";
 			const title = record.fields.link_title;
+			const isofficial = record.fields.verification_status == "government resource";
 
 			let listitem = document.createElement("li");
 			let link = document.createElement("a");
 			link.innerText = title ? title : url;
 			link.href = url;
+			link.className = isofficial ?"verified":"";
 			link.dataset.recordId = record.fields.id;
 			listitem.appendChild(link);
 
