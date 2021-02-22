@@ -2,3 +2,7 @@ img.svg-icon {
 	width: 22px;
 	height: 22px;
 }
+
+.verified {
+	font-weight: bold;
+}
