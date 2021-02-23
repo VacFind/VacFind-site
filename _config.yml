@@ -25,7 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   throughout the United States.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vacfind.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: VacFind
 analytics: true
 
 # Build settings
@@ -55,4 +54,7 @@ plugins:
 contact:
   email: contact@vacfind.org
 social:
+  github_username: VacFind
   discord: https://discord.vacfind.org
+  opencollective_username: vacfind
+
