@@ -51,6 +51,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+newlinkform: https://airtable.com/tblpaXLQbqVkhoaYI/viwSVkWjmdrFkskyF?blocks=hide
+
 contact:
   email: contact@vacfind.org
 social:
