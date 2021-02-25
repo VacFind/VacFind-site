@@ -120,7 +120,7 @@ layout: default
 			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
 			let group = record.fields.group || "ETC";
 			const title = record.fields.link_title;
-			const isofficial = record.fields.verification_status == "government resource";
+			const isofficial = isOfficialResource(record);
 
 			let listitem = document.createElement("li");
 			let link = document.createElement("a");

@@ -26,3 +26,8 @@ export const retrieveFromStorage = () => {
 	console.log("retrieving from storage")
 	return JSON.parse(localStorage.getItem("vacFind-links"))
 }
+
+
+export const isOfficialResource = (record) => {
+	return record.fields.verification_status == "government resource" || record.fields.source_type == "government";
+}
