@@ -28,7 +28,8 @@ If your hospital or other care provider would like to use VacFind to display you
 We have a [form]({{site.data.link-corrections}}) for submitting updates and additions to our links
 
 ## Where do you get your data?
-Our vaccination site locations primarily come from  [mapping layers provided by GISCorps]({{site.data.map-source}}). We are also currently looking into other methods of collecting data. If you have an idea or want to help out, [join us on discord]({{site.social.discord}})!
+Our list of links is currently updated as we find new ones. Feel free to [send us more that you hear of]({{site.data.link-corrections}})!
+<!-- Our vaccination site locations primarily come from  [mapping layers provided by GISCorps]({{site.data.map-source}}). We are also currently looking into other methods of collecting data.  -->
 
 
 ## Do you have a donation link?
