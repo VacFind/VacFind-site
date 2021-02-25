@@ -127,7 +127,7 @@ layout: default
 			link.innerText = title ? title : url;
 			link.href = url;
 			link.className = isofficial ?"verified":"";
-			link.dataset.recordId = record.fields.id;
+			link.dataset.recordId = record.id;
 			listitem.appendChild(link);
 
 			if (!by_group[group]) {
