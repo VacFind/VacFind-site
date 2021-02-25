@@ -31,3 +31,15 @@ export const retrieveFromStorage = () => {
 export const isOfficialResource = (record) => {
 	return record.fields.verification_status == "government resource" || record.fields.source_type == "government";
 }
+
+/// take an array of keys and an airtable record and check for a value at each key and returning the first one found
+/// needs testing
+const findValueWithKeys = (record, keys) => {
+	
+	for (let key of keys) {
+		if (record.fields[key]) {
+			return record.fields.verification_status
+		}
+	}
+
+}
