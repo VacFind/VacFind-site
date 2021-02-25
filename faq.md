@@ -32,11 +32,9 @@ Our list of links is currently updated as we find new ones. Feel free to [send u
 <!-- Our vaccination site locations primarily come from  [mapping layers provided by GISCorps]({{site.data.map-source}}). We are also currently looking into other methods of collecting data.  -->
 
 
-## Do you have a donation link?
+## Do you Accept Donations?
 
-Yes! You can support VacFind with a tax-deductible donation using [our  OpenCollective page][2].
-
-We encourage anyone who has found VacFind useful to consider donating as it allows us to promote our service and make our data available to anyone who needs it. 
+Yes but it is absolutely not necessary. Donations help us with costs and allow us to give back to the projects and people. You can support VacFind with a tax-deductible donation or see our finances on [our  OpenCollective page][2]. 
 
 ## Contact Us
 
