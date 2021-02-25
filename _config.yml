@@ -25,13 +25,18 @@ description: >- # this means to ignore newlines until "baseurl:"
   throughout the United States.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vacfind.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: VacFind
 analytics: true
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-sitemap
+
+header_pages:
+  - about.md
+  - name: Docs
+    link: https://docs.vacfind.org
+  - faq.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,14 +60,16 @@ plugins:
 contact:
   email: contact@vacfind.org
 social:
-  discord: https://discord.gg/Mcre8FSkNV
+  github_username: VacFind
+  opencollective_username: vacfind
+  discord: https://discord.vacfind.org
   # link to the main opencollective page
   opencollective: https://opencollective.com/vacfind
 # submit a donation link
 donations: https://opencollective.com/vacfind/donate
 
 data:
-  link-corrections: https://docs.google.com/forms/d/e/1FAIpQLSfKmevEYl76TwxoTFhHRrUMxDgwnBqzDFAuJJb1IiH15dR3fg/viewform?usp=sf_link
+  link-corrections: https://airtable.com/tblpaXLQbqVkhoaYI/viwSVkWjmdrFkskyF
   map-source: https://covid-19-giscorps.hub.arcgis.com/
   map-corrections:
     

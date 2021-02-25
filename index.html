@@ -1,0 +1,178 @@
+---
+layout: default
+---
+
+<div class="home">
+	{% if page.title %}
+	<h1 class="page-heading">{{ page.title }}</h1>
+	{% endif %}
+
+	<p>Hi! We’re VacFind! Our goal is to make COVID-19 vaccinations as easy and accessible as possible.</p>
+	
+	<p>Once we’re up and running, this site will let you search for your location anywhere in the US and tell you the locations of the nearest places in your area that have COVID vaccines available and whether or not you’re eligible.</p>
+	
+	<p>We’re moving as fast as we can, but the task isn’t easy. We’re still building a lot of important functionality. In the meantime, we recommend you check out the following resources and volunteer projects for more information on vaccination in each region.</p>
+
+	<p>Official government-run sites are listed in <strong>bold</strong> text.</p>
+
+	<div id="link-list"></div>
+
+
+	<p>We are entirely volunteer-run and all our code is open source. If you want to help out or suggest a change or addition to our list, fill out <a href="{{site.newlinkform}}">this form</a>. You can also join us on <a href="{{site.social.discord}}">Discord</a> if you'd like to help out or come chat with the team!</p>
+
+	<script type="module" >
+		import { loadLinks, retrieveFromStorage } from '/assets/js/script.js';
+
+
+		let linkListElement = document.getElementById("link-list");
+		linkListElement.innerText = "Loading..."
+
+		let groups = {
+			"USA": "National (United States)",
+			"AL": "Alabama",
+			"AK": "Alaska",
+			"AS": "American Samoa",
+			"AZ": "Arizona",
+			"AR": "Arkansas",
+			"CA": "California",
+			"CO": "Colorado",
+			"CT": "Connecticut",
+			"DE": "Delaware",
+			"DC": "District Of Columbia",
+			"FM": "Federated States Of Micronesia",
+			"FL": "Florida",
+			"GA": "Georgia",
+			"GU": "Guam",
+			"HI": "Hawaii",
+			"ID": "Idaho",
+			"IL": "Illinois",
+			"IN": "Indiana",
+			"IA": "Iowa",
+			"KS": "Kansas",
+			"KY": "Kentucky",
+			"LA": "Louisiana",
+			"ME": "Maine",
+			"MH": "Marshall Islands",
+			"MD": "Maryland",
+			"MA": "Massachusetts",
+			"MI": "Michigan",
+			"MN": "Minnesota",
+			"MS": "Mississippi",
+			"MO": "Missouri",
+			"MT": "Montana",
+			"NE": "Nebraska",
+			"NV": "Nevada",
+			"NH": "New Hampshire",
+			"NJ": "New Jersey",
+			"NM": "New Mexico",
+			"NY": "New York",
+			"NC": "North Carolina",
+			"ND": "North Dakota",
+			"MP": "Northern Mariana Islands",
+			"OH": "Ohio",
+			"OK": "Oklahoma",
+			"OR": "Oregon",
+			"PW": "Palau",
+			"PA": "Pennsylvania",
+			"PR": "Puerto Rico",
+			"RI": "Rhode Island",
+			"SC": "South Carolina",
+			"SD": "South Dakota",
+			"TN": "Tennessee",
+			"TX": "Texas",
+			"UT": "Utah",
+			"VT": "Vermont",
+			"VI": "Virgin Islands",
+			"VA": "Virginia",
+			"WA": "Washington",
+			"WV": "West Virginia",
+			"WI": "Wisconsin",
+			"WY": "Wyoming",
+			"ETC": "Miscellaneous"
+		}
+
+		let stored_records = retrieveFromStorage()
+		let by_group = {}
+			
+		let filter = {
+				$not: {
+					$or: [
+						{ $textFind: ["dev resource", { $fieldName: 'category' }] },
+						{ $textFind: ["useless", { $fieldName: 'category' }] },
+						{ $textFind: ["INTL", { $fieldName: 'group' }] }
+					]
+				},
+				public: true
+			}
+		
+		let records = loadLinks(filter);
+
+		const processRecords = (records) => {
+			for (let record of records) {
+				processRecord(record)
+			}
+			populatePage()
+		}
+
+		const processRecord = (record) => {
+			// console.log(record.fields)
+			const url = record.fields.url;
+			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
+			let group = record.fields.group || "ETC";
+			const title = record.fields.link_title;
+			const isofficial = record.fields.verification_status == "government resource";
+
+			let listitem = document.createElement("li");
+			let link = document.createElement("a");
+			link.innerText = title ? title : url;
+			link.href = url;
+			link.className = isofficial ?"verified":"";
+			link.dataset.recordId = record.fields.id;
+			listitem.appendChild(link);
+
+			if (!by_group[group]) {
+				by_group[group] = []
+			}
+
+			by_group[group].push(listitem)
+		}
+
+
+		const populatePage = () => {
+			linkListElement.innerText = ""
+
+			//create headings for each group
+			for (let group in groups) {
+				if (!by_group[group]) {
+					by_group[group] = []
+				}
+
+				if (by_group[group].length > 0) {
+
+					let listheading = document.createElement("h3");
+					listheading.innerText = groups[group];
+
+					let list = document.createElement("ul");
+					list.id = group
+					for (let link of by_group[group]) {
+						list.appendChild(link)
+					}
+
+					linkListElement.appendChild(listheading);
+					linkListElement.appendChild(list);
+				}
+			}
+		};
+
+		//populate the page if theres a value from local storage
+		if (stored_records) {
+			processRecords(stored_records)
+		}
+
+		records.then((results) => {
+			by_group = {} //clear out anything that may be present from localstorage
+			processRecords(results)
+		});
+		
+	</script>
+</div>

@@ -1,0 +1,18 @@
+img.svg-icon {
+	width: 22px;
+	height: 22px;
+}
+
+.verified {
+	font-weight: bold;
+}
+
+
+ul.social-media-list {
+	display: flex;
+}
+ul.social-media-list > li {
+	flex: 0 0 auto;
+	padding: 0;
+	margin: 8px;
+}
