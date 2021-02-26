@@ -11,9 +11,8 @@ We are a small team of student volunteers based near Portland, OR. Our goal with
 
 ## What we do
 
-There are three main ways that we hope to be able to help:
+We are working in collaboration with volunteers from other projects such as [https://findyourvaccine.org](https://findyourvaccine.org) to help build a national tool for finding available vaccines. 
 
-1. Creating an open-source, national public resource to make it easy and accessible for anyone to get a COVID vaccine.
-2. Gathering and listing open source projects, data sources, and other resources for volunteers and developers to bring to their own communities
-3. Facilitating collaboration between volunteers so time, information, and resources can be used most effectively
+Most of our current projects are listed on our [docs page](https://docs.vacfind.org), but you can also join us on [discord]({{site.social.discord}}) if you'd like to chat with us about ways you can help!
 
+We also hope to provide some of our own tools and services, such as our [Airtable Caching API](https://docs.vacfind.org/Database/api), to help smaller projects grow and get themselves out there without worrying about how to setup the technical aspects of their projects.
