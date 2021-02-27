@@ -34,7 +34,7 @@ Our list of links is currently updated as we find new ones. Feel free to [send u
 
 ## Do you Accept Donations?
 
-Yes but it is absolutely not necessary. Donations help us with costs and allow us to give back to the projects and people. You can support VacFind with a tax-deductible donation or see our finances on [our  OpenCollective page][2]. 
+Yes but it is absolutely not necessary. Donations primarily allow us to offer higher quality and more reliable hosted services to other projects, such as our [AirTable caching API](https://docs.vacfind.org/Database/api)! You can support VacFind with a tax-deductible donation or see our finances on [our  OpenCollective page][2]. 
 
 ## Contact Us
 
