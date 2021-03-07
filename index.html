@@ -17,9 +17,10 @@ layout: default
 
 	<p>Official government-run sites are listed in <strong>bold</strong> text.</p>
 	<select id="state-select"></select>
-	<div id="link-list"></div>
+	<div id="state-link-list"></div>
 
-
+	<div id="national-link-list"></div>
+	
 
 	<script src='/assets/js/covidjs.bundle.js'></script>
 	<script>
@@ -27,13 +28,15 @@ layout: default
 
 		const vacFind = new covidjs.VacFindBackend()
 
-		let linkListElement = document.getElementById("link-list");
-		linkListElement.innerText = "Loading..."
+		let stateListElement = document.getElementById("state-link-list");
+		stateListElement.innerText = "Loading..."
+		let nationalListElement = document.getElementById("national-link-list");
+		nationalListElement.innerText = "Loading..."
 		let stateSelectElement = document.getElementById("state-select");
 		stateSelectElement.onchange = (event) => {
 			const selectedState = event.target.value
 			console.log("selected" + selectedState)
-			populatePage(selectedState)
+			populateStateList(selectedState)
 		}
 		
 		stateSelectElement.appendChild(generateSelectionOptions([]))
@@ -67,7 +70,7 @@ layout: default
 			for (let record of records) {
 				processRecord(record)
 			}
-			populatePage(null)
+			populateNationalList()
 		}
 
 		const processRecord = (record) => {
@@ -102,15 +105,19 @@ layout: default
 			by_group[group].push(listitem)
 		}
 
-		const populatePage = (stateKey) => {
-			linkListElement.innerText = ""
-
-			createGroup(linkListElement, "National (United States)", "USA", by_group["USA"])
+		const populateStateList = (stateKey) => {
+			stateListElement.innerText = ""
 
 			if (stateKey) {
 
-				createGroup(linkListElement, groups[stateKey], stateKey, by_group[stateKey])
+				createGroup(stateListElement, groups[stateKey], stateKey, by_group[stateKey])
 			}
+		};
+
+		const populateNationalList = () => {
+			nationalListElement.innerText = ""
+
+			createGroup(nationalListElement, "National (United States)", "USA", by_group["USA"])
 		};
 
 		const createGroup = (parent, heading, id, links) => {
