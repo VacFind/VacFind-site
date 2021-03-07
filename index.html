@@ -22,14 +22,23 @@ layout: default
 
 	<script src='/assets/js/covidjs.bundle.js'></script>
 	<script>
+		// import { us_land_groups, generateSelectionOptions } from '/assets/js/script.js';
 
 		const vacFind = new covidjs.VacFindBackend()
 
 		let linkListElement = document.getElementById("link-list");
 		linkListElement.innerText = "Loading..."
 		let stateSelectElement = document.getElementById("state-select");
-		stateSelectElement.onchange = onSelectRegion
-		stateSelectElement.children = generateSelectionOptions(us_land_groups)
+		stateSelectElement.onchange = (event) => {
+			const selectedState = event.target.value
+			console.log("selected" + selectedState)
+			// populatePage(selectedState)
+		}
+		
+		stateSelectElement.appendChild(generateSelectionOptions([]))
+		for (const child of generateSelectionOptions(us_land_groups)) {
+			stateSelectElement.appendChild(child)
+		}
 		
 
 		let groups = Object.assign({}, us_land_groups, {
@@ -85,12 +94,6 @@ layout: default
 			}
 
 			by_group[group].push(listitem)
-		}
-
-
-		const onSelectRegion = (event) => {
-			// const selectedState = event.target.value
-			// populatePage(selectedState)
 		}
 
 		const populatePage = () => {
