@@ -125,8 +125,15 @@ layout: default
 			}
 
 			parent.appendChild(listheading);
-			parent.appendChild(list);
-
+			if (links.length == 0) {
+				const notfound = document.createElement("p")
+				notfound.innerHTML = `
+				Whoops, it seems as though we do not have any entries for your selected region. Please reach out to us via <a href="mailto:{{site.contact.email}}">email</a>, or come talk to us on <a href="{{site.social.discord}}">Discord</a> and we will help you find resources in your area. If you would like to submit a link that you think should be here,  feel free to use our <a href="{{site.newlinkform}}">suggestions form</a>.
+				`
+				parent.appendChild(notfound);
+			} else {
+				parent.appendChild(list);
+			}
 		}
 
 		const createLink = (url) => {
