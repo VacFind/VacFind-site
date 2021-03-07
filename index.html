@@ -33,8 +33,7 @@ layout: default
 		let linkListElement = document.getElementById("link-list");
 		linkListElement.innerText = "Loading..."
 
-		let groups = {
-			"USA": "National (United States)",
+		let us_land_groups = {
 			"AL": "Alabama",
 			"AK": "Alaska",
 			"AS": "American Samoa",
@@ -93,9 +92,13 @@ layout: default
 			"WA": "Washington",
 			"WV": "West Virginia",
 			"WI": "Wisconsin",
-			"WY": "Wyoming",
-			"ETC": "Miscellaneous"
+			"WY": "Wyoming"
 		}
+
+		let groups = Object.assign({}, us_land_groups, {
+			"USA": "National (United States)",
+			"ETC": "Miscellaneous"
+		})
 
 		let stored_records = vacFind.retrieveFromStorage()
 		let by_group = {}
