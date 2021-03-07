@@ -80,7 +80,7 @@ const findValueWithKeys = (record, keys) => {
 
 const generateSelectionOptions = (option_list) => {
 	const options = []
-	for (const option_key of option_list){
+	for (const option_key of Object.keys(option_list)){
 		const option = document.createElement("option")
 		option.value = option_key;
 		option.innerText = option_list[option_key]
