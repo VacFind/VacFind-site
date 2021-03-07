@@ -43,8 +43,7 @@ layout: default
 
 		let groups = Object.assign({},
 			{"USA": "National (United States)"},
-			us_land_groups,
-			{"ETC": "Miscellaneous"}
+			us_land_groups
 		)
 
 		let stored_records = vacFind.retrieveFromStorage()
@@ -78,7 +77,12 @@ layout: default
 			// console.log(record.fields)
 			const url = record.url;
 			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
-			let group = record.group || "ETC";
+			let group = record.group;
+
+			//if no group is set, skip processing this record and dont display it
+			if (!group) {
+				return
+			}
 			const title = record.linkTitle;
 			const isofficial = record.isOfficialResource();
 
