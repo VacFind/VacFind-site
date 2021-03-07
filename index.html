@@ -122,16 +122,17 @@ layout: default
 
 		const createGroup = (parent, heading, id, links) => {
 
-			let listheading = document.createElement("h3");
-			listheading.innerText = heading;
-
+			if (heading) {
+				let listheading = document.createElement("h3");
+				listheading.innerText = heading;
+				parent.appendChild(listheading);
+			}
 			let list = document.createElement("ul");
 			list.id = id
 			for (let link of links) {
 				list.appendChild(createLink(link))
 			}
 
-			parent.appendChild(listheading);
 			if (links.length == 0) {
 				const notfound = document.createElement("p")
 				notfound.innerHTML = `
