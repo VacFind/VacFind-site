@@ -73,3 +73,14 @@ const findValueWithKeys = (record, keys) => {
 	}
 
 }
+
+const generateAreaSelectionOptions = () => {
+	const options = []
+	for (const land_key of us_land_groups){
+		const option = document.createElement("option")
+		option.value = land_key;
+		option.innerText = us_land_groups[land_key]
+		options.push(option)
+	}
+	return options
+}
