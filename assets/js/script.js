@@ -83,7 +83,7 @@ const generateSelectionOptions = (option_list) => {
 	for (const option_key of option_list){
 		const option = document.createElement("option")
 		option.value = option_key;
-		option.innerText = us_land_groups[option_key]
+		option.innerText = option_list[option_key]
 		options.push(option)
 	}
 	return options
