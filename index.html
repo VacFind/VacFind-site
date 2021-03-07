@@ -41,10 +41,11 @@ layout: default
 		}
 		
 
-		let groups = Object.assign({}, us_land_groups, {
-			"USA": "National (United States)",
-			"ETC": "Miscellaneous"
-		})
+		let groups = Object.assign({},
+			{"USA": "National (United States)"},
+			us_land_groups,
+			{"ETC": "Miscellaneous"}
+		)
 
 		let stored_records = vacFind.retrieveFromStorage()
 		let by_group = {}
