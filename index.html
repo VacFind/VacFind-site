@@ -122,12 +122,16 @@ layout: default
 			let list = document.createElement("ul");
 			list.id = id
 			for (let link of links) {
-				list.appendChild(link)
+				list.appendChild(createLink(link))
 			}
 
 			parent.appendChild(listheading);
 			parent.appendChild(list);
 
+		}
+
+		const createLink = (url) => {
+			return url
 		}
 
 
