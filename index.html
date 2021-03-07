@@ -121,6 +121,10 @@ layout: default
 		}
 
 		const processRecord = (record) => {
+			if (record.url === undefined) {
+				record = new covidjs.VacFindRecord(record)
+			}
+			
 			// console.log(record.fields)
 			const url = record.url;
 			//the value of the group this belongs to, default to the "Miscellaneous" group if blank
