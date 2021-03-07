@@ -19,6 +19,8 @@ layout: default
 	<select id="state-select"></select>
 	<div id="state-link-list"></div>
 
+	<h2>Looking for national resources? Try some of these:</h2>
+
 	<div id="national-link-list"></div>
 	
 
@@ -117,7 +119,7 @@ layout: default
 		const populateNationalList = () => {
 			nationalListElement.innerText = ""
 
-			createGroup(nationalListElement, "National (United States)", "USA", by_group["USA"])
+			createGroup(nationalListElement, null, "USA", by_group["USA"])
 		};
 
 		const createGroup = (parent, heading, id, links) => {
