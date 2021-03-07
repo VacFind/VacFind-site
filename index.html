@@ -32,7 +32,7 @@ layout: default
 		stateSelectElement.onchange = (event) => {
 			const selectedState = event.target.value
 			console.log("selected" + selectedState)
-			// populatePage(selectedState)
+			populatePage(selectedState)
 		}
 		
 		stateSelectElement.appendChild(generateSelectionOptions([]))
