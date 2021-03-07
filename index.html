@@ -108,20 +108,28 @@ layout: default
 
 				if (by_group[group].length > 0) {
 
-					let listheading = document.createElement("h3");
-					listheading.innerText = groups[group];
+					createGroup(linkListElement, groups[group], group, by_group[group])
 
-					let list = document.createElement("ul");
-					list.id = group
-					for (let link of by_group[group]) {
-						list.appendChild(link)
-					}
-
-					linkListElement.appendChild(listheading);
-					linkListElement.appendChild(list);
 				}
 			}
 		};
+
+		const createGroup = (parent, heading, id, links) => {
+
+			let listheading = document.createElement("h3");
+			listheading.innerText = heading;
+
+			let list = document.createElement("ul");
+			list.id = id
+			for (let link of links) {
+				list.appendChild(link)
+			}
+
+			parent.appendChild(listheading);
+			parent.appendChild(list);
+
+		}
+
 
 		//populate the page if theres a value from local storage
 		if (stored_records) {
