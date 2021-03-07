@@ -79,6 +79,14 @@ const findValueWithKeys = (record, keys) => {
 }
 
 const generateSelectionOptions = (option_list) => {
+	if (option_list.length == 0) {
+		const option = document.createElement("option")
+		option.selected = true
+		option.disabled = true
+		option.innerText = "Select your state..."
+		return option
+	} 
+
 	const options = []
 	for (const option_key of Object.keys(option_list)){
 		const option = document.createElement("option")
