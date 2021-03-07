@@ -1,19 +1,15 @@
 
-let us_land_groups = {
+const us_states = {
 	"AL": "Alabama",
 	"AK": "Alaska",
-	"AS": "American Samoa",
 	"AZ": "Arizona",
 	"AR": "Arkansas",
 	"CA": "California",
 	"CO": "Colorado",
 	"CT": "Connecticut",
 	"DE": "Delaware",
-	"DC": "District Of Columbia",
-	"FM": "Federated States Of Micronesia",
 	"FL": "Florida",
 	"GA": "Georgia",
-	"GU": "Guam",
 	"HI": "Hawaii",
 	"ID": "Idaho",
 	"IL": "Illinois",
@@ -23,7 +19,6 @@ let us_land_groups = {
 	"KY": "Kentucky",
 	"LA": "Louisiana",
 	"ME": "Maine",
-	"MH": "Marshall Islands",
 	"MD": "Maryland",
 	"MA": "Massachusetts",
 	"MI": "Michigan",
@@ -39,13 +34,10 @@ let us_land_groups = {
 	"NY": "New York",
 	"NC": "North Carolina",
 	"ND": "North Dakota",
-	"MP": "Northern Mariana Islands",
 	"OH": "Ohio",
 	"OK": "Oklahoma",
 	"OR": "Oregon",
-	"PW": "Palau",
 	"PA": "Pennsylvania",
-	"PR": "Puerto Rico",
 	"RI": "Rhode Island",
 	"SC": "South Carolina",
 	"SD": "South Dakota",
@@ -53,7 +45,6 @@ let us_land_groups = {
 	"TX": "Texas",
 	"UT": "Utah",
 	"VT": "Vermont",
-	"VI": "Virgin Islands",
 	"VA": "Virginia",
 	"WA": "Washington",
 	"WV": "West Virginia",
@@ -61,6 +52,19 @@ let us_land_groups = {
 	"WY": "Wyoming"
 }
 
+const us_territories = {
+	"AS": "American Samoa",
+	"DC": "District Of Columbia",
+	"FM": "Federated States Of Micronesia",
+	"GU": "Guam",
+	"MH": "Marshall Islands",
+	"MP": "Northern Mariana Islands",
+	"PW": "Palau",
+	"PR": "Puerto Rico",
+	"VI": "Virgin Islands"
+}
+
+const us_land_groups = Object.assign({}, us_states, us_territories)
 
 /// take an array of keys and an airtable record and check for a value at each key and returning the first one found
 /// needs testing
