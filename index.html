@@ -8,16 +8,20 @@ layout: default
 
 	<p>Hi! We’re VacFind! Our goal is to make COVID-19 vaccinations as easy and accessible as possible.</p>
 	
-	<p>Once we’re up and running, this site will let you search for your location anywhere in the US and tell you the locations of the nearest places in your area that have COVID vaccines available and whether or not you’re eligible.</p>
-	
-	<p>We’re moving as fast as we can, but the task isn’t easy. We’re still building a lot of important functionality. In the meantime, we recommend you check out the following resources and volunteer projects for more information on vaccination in each region.</p>
+	<p>Below you will find a list of COVID vaccination resources that we have found. These include links to official information from government entities (listed in <strong>bold</strong> text) as well as various pages and tools that are created by volunteers.</p>
 
-	<p>Official government-run sites are listed in <strong>bold</strong> text.</p>
+	<p>Currently the list contains links to resources such as:
+		<ul>
+			<li>tools that look for available vaccine appointments near you</li>
+			<li>local vaccine hunting groups chasing leftover vaccines</li>
+			<li>links to updated information about vaccination programs in your state</li>
+			<li>... and more!</li>
+		</ul> 
+	</p>
+
+	<p>If you want to help out or suggest a change or addition to our list, please fill out <a href="{{site.newlinkform}}">this form</a> or come chat with our team on <a href="{{site.social.discord}}">Discord</a>!</p>
 
 	<div id="link-list"></div>
-
-
-	<p>We are entirely volunteer-run and all our code is open source. If you want to help out or suggest a change or addition to our list, fill out <a href="{{site.newlinkform}}">this form</a>. You can also join us on <a href="{{site.social.discord}}">Discord</a> if you'd like to help out or come chat with the team!</p>
 
 	<script type="module" >
 		import { loadLinks, retrieveFromStorage } from '/assets/js/script.js';
