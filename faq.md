@@ -14,7 +14,7 @@ You can also join our [discord server]({{site.social.discord}}) or help us reach
 ### As a Developer:
 If you maintain a service that we link to, a simple link back to our site allows your users to easily find related resources to help them get vaccinated faster. Even a simple linkback can help us be seen by more search engines and help more people find the information they need 
 
-We are also on [github](https://github.com/{{site.github_username}})and willing to accept contributions to help improve our site or any of the other services we provide. Feel free to come chat with us on [discord]({{site.social.discord}}) if you'd like to learn more!
+We are also on [github](https://github.com/{{site.social.github_username}}) and willing to accept contributions to help improve our site or any of the other services we provide. Feel free to come chat with us on [discord]({{site.social.discord}}) if you'd like to learn more!
 
 
 ## How do I submit a new link or correct an existing one?
