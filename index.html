@@ -51,7 +51,6 @@ layout: default
 			us_land_groups
 		)
 
-		let stored_records = vacFind.retrieveFromStorage()
 		let by_group = {}
 			
 		let filter = {
@@ -150,14 +149,18 @@ layout: default
 		}
 
 
-		//populate the page if theres a value from local storage
-		if (stored_records) {
-			processRecords(stored_records)
-		}
 
 		records.then((results) => {
 			by_group = {} //clear out anything that may be present from localstorage
 			processRecords(results)
+		}).catch( (error) => {
+			//if theres an error, use value from local storage
+			console.error(error)
+			let stored_records = vacFind.retrieveFromStorage()
+
+			if (stored_records) {
+				processRecords(stored_records)
+			}
 		});
 		
 	</script>
