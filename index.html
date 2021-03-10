@@ -24,8 +24,7 @@ layout: default
 	<div id="link-list"></div>
 
 	<script type="module" >
-		import { loadLinks, retrieveFromStorage } from '/assets/js/script.js';
-
+		import { loadLinks, retrieveFromStorage, retrieveBackupData } from '/assets/js/script.js';
 
 		let linkListElement = document.getElementById("link-list");
 		linkListElement.innerText = "Loading..."
@@ -95,6 +94,13 @@ layout: default
 		}
 
 		let stored_records = retrieveFromStorage()
+		if (!stored_records) {
+			retrieveBackupData().then(backupdata => {
+				stored_records = backupdata
+				processRecords(stored_records)
+			})
+		}
+
 		let by_group = {}
 			
 		let filter = {

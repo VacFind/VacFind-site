@@ -1,0 +1,1775 @@
+[
+	{
+		"id": "rece3w5s9UOaO9LUF",
+		"fields": {
+			"id": 6,
+			"url": "https://anchoragecovidvaccine.org/",
+			"description": "site seems to be run by a governmentn",
+			"group": "AK",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "AK",
+			"type": "app",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T03:32:46.000Z"
+	},
+	{
+		"id": "reccXlWAgd1GIrgCf",
+		"fields": {
+			"id": 7,
+			"url": "https://vactrak.alaska.gov/iweb/",
+			"group": "AK",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "AK",
+			"type": "app",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T03:33:00.000Z"
+	},
+	{
+		"id": "recApIAQN83IcfhLl",
+		"fields": {
+			"id": 2,
+			"url": "https://www.vaccinateca.com/",
+			"group": "CA",
+			"public": true,
+			"source_url": "https://www.sfchronicle.com/bayarea/article/This-crowdsourced-website-tracks-where-you-can-15882787.php",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "reported in media",
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "CA",
+			"type": "app",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-03T17:34:14.000Z"
+	},
+	{
+		"id": "recRxM8mtuMd2iHRo",
+		"fields": {
+			"id": 103,
+			"url": "https://vaxie.info/",
+			"description": "Volunteers sharing vaccination information for the Inland Empire (Riverside and San Bernardino Counties in Southern California).nWebsite lists resources for vaccine appointment, eligibility, tips for making an appointment. Data updated manually by what has worked recently.nFacebook page @vaxieinfo posts live appointment updates, crowdsourcing info. Data updated manually by checking websites and others who are scraping information. nLimited texting of live appointments is being tested. Sent manually. ",
+			"group": "CA",
+			"public": true,
+			"source_url": "https://kesq.com/news/2021/02/19/vaccine-volunteers-create-new-website-to-streamline-appointment-process/",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information",
+				"vaccine availability",
+				"link listing",
+				"eligibility"
+			],
+			"data_provided_format": [
+				"public webpage"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "CA",
+			"type": "app"
+		},
+		"createdTime": "2021-02-20T17:20:45.000Z"
+	},
+	{
+		"id": "recZpMoQ0emxMYlBV",
+		"fields": {
+			"id": 109,
+			"url": "https://scvaccinate.com",
+			"description": "santa cruz healthn",
+			"group": "CA",
+			"public": true,
+			"link_title": "santa cruz health homepage",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "CA",
+			"status": "active"
+		},
+		"createdTime": "2021-02-21T05:03:37.000Z"
+	},
+	{
+		"id": "receEaD51Z5bSAwe7",
+		"fields": {
+			"id": 4,
+			"url": "https://vaccinatema.com/",
+			"group": "MA",
+			"public": true,
+			"source_url": "https://www.bostonglobe.com/2021/02/12/nation/mass-debuts-new-website-book-covid-vaccine-appointments/",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "reported in media",
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "MA",
+			"type": "app",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T03:32:35.000Z"
+	},
+	{
+		"id": "recRkXc4NPSmoHyrr",
+		"fields": {
+			"id": 63,
+			"url": "https://www.macovidvaccines.com/",
+			"group": "MA",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/COVIDProjects/comments/ld7jhh/this_website_i_made_centralizes_appointment/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"tool",
+				"vaccine availability"
+			],
+			"country": "United States",
+			"region": "MA",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-15T11:15:51.000Z"
+	},
+	{
+		"id": "reczkduq189RR4EPO",
+		"fields": {
+			"id": 72,
+			"url": "https://vaxfinder.mass.gov/",
+			"description": "MA state vaccine finder tooln",
+			"group": "MA",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"tool",
+				"vaccination"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-16T20:28:33.000Z"
+	},
+	{
+		"id": "rech9zT7Ba638OX5b",
+		"fields": {
+			"id": 181,
+			"url": "https://findvax.us/",
+			"description": "Only for MA now due to limited volunteer time. will be for all of USA latern",
+			"group": "MA",
+			"public": true,
+			"category": "volunteer project",
+			"country": "United States",
+			"region": "MA"
+		},
+		"createdTime": "2021-03-03T03:13:11.000Z"
+	},
+	{
+		"id": "receMlMO9E5Hr5ggZ",
+		"fields": {
+			"id": 186,
+			"url": "https://brettcnelson.github.io/vaccine/",
+			"description": "list of vaccine resources in MAn",
+			"group": "MA",
+			"public": true,
+			"source_url": "https://github.com/brettcnelson/vaccine",
+			"link_title": "Vaccine Links in MA",
+			"category": "volunteer project",
+			"tags": [
+				"links"
+			],
+			"data_provided_format": [
+				"links"
+			],
+			"country": "United States",
+			"region": "MA",
+			"type": "links",
+			"audience": "public"
+		},
+		"createdTime": "2021-03-04T02:00:17.000Z"
+	},
+	{
+		"id": "recVzYQQVb22LnPRU",
+		"fields": {
+			"id": 5,
+			"url": "https://nycvaccinelist.com/",
+			"group": "NY",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "NY",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-08T03:32:38.000Z"
+	},
+	{
+		"id": "recyszAlYziHRRqTG",
+		"fields": {
+			"id": 15,
+			"url": "https://vaccinefinder.nyc.gov/",
+			"description": "NYC Vaccine Finder",
+			"group": "NY",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"tool"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NY",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T22:42:35.000Z"
+	},
+	{
+		"id": "recxDMcAE5Iwl7zT3",
+		"fields": {
+			"id": 69,
+			"url": "https://am-i-eligible.covid19vaccine.health.ny.gov/",
+			"group": "NY",
+			"public": true,
+			"link_title": "NY COVID eligibility checker",
+			"category": "government resource",
+			"tags": [
+				"eligibility",
+				"tool"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NY",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-16T16:34:27.000Z"
+	},
+	{
+		"id": "recTyTtdDWW0wzXdp",
+		"fields": {
+			"id": 84,
+			"url": "https://www.turbovax.info/",
+			"description": "NYC",
+			"group": "NY",
+			"public": true,
+			"source_url": "https://github.com/usdigitalresponse/vaccine-finder-tools",
+			"category": "volunteer project",
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "NY",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-18T20:33:58.000Z"
+	},
+	{
+		"id": "rec9sh8p4gdbfCh4V",
+		"fields": {
+			"id": 3,
+			"url": "https://www.covid19vaccinetx.com/",
+			"group": "TX",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "TX",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-03T17:34:14.000Z"
+	},
+	{
+		"id": "recygmlS61kCou6eO",
+		"fields": {
+			"id": 52,
+			"url": "https://dshs.texas.gov/coronavirus/",
+			"group": "TX",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "TX",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:15.000Z"
+	},
+	{
+		"id": "recHu2IehbW0Eivdn",
+		"fields": {
+			"id": 67,
+			"url": "https://www.vaxxmax.com/",
+			"description": "National Rite-aid scraper",
+			"group": "USA",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/COVIDProjects/comments/lk6woe/covid_vaccine_availability_project_app/",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"tool"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-16T01:25:40.000Z"
+	},
+	{
+		"id": "recOgxgeq9oZCvm0w",
+		"fields": {
+			"id": 75,
+			"url": "https://hidrb.com/",
+			"description": "distributing extra doses",
+			"group": "USA",
+			"public": true,
+			"source_url": "https://www.helpfindmyshot.com/",
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"vaccine hunters",
+				"vaccine leftovers"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"audience": "public",
+			"about": "vaccine leftovers"
+		},
+		"createdTime": "2021-02-17T04:03:17.000Z"
+	},
+	{
+		"id": "recLV15ZA7amQVwpc",
+		"fields": {
+			"id": 76,
+			"url": "https://www.findyourvaccine.org",
+			"description": "finds your local state vaccine info pagen",
+			"group": "USA",
+			"public": true,
+			"category": "volunteer project",
+			"data_collection_format": [
+				"calls"
+			],
+			"data_provided_format": [
+				"links"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-17T04:04:05.000Z"
+	},
+	{
+		"id": "reciBQpkQmKMs6Ul7",
+		"fields": {
+			"id": 77,
+			"url": "https://www.cdc.gov/publichealthgateway/healthdirectories/healthdepartments.html",
+			"description": "list of links to all public health department pages for each state",
+			"group": "USA",
+			"public": true,
+			"link_title": "CDC List of state public health websites",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"type": "information",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-17T04:06:15.000Z"
+	},
+	{
+		"id": "recTnBi0Nn9YafYFI",
+		"fields": {
+			"id": 102,
+			"url": "https://findvaccineusa.com/",
+			"group": "USA",
+			"public": true,
+			"source_url": "https://www.covid19vaccinetx.com/",
+			"category": "volunteer project",
+			"source_type": "volunteer",
+			"country": "United States"
+		},
+		"createdTime": "2021-02-20T16:42:54.000Z"
+	},
+	{
+		"id": "reckhXiBKSqgRjc46",
+		"fields": {
+			"id": 104,
+			"url": "https://vaxus.info/",
+			"description": "Focus on volunteers sharing appointment information by State, across the US. nNational resources for official state websites, and scrapers.",
+			"group": "USA",
+			"public": true,
+			"category": "volunteer group",
+			"tags": [
+				"link listing"
+			],
+			"data_provided_format": [
+				"public webpage"
+			],
+			"source_type": "volunteer",
+			"country": "United States"
+		},
+		"createdTime": "2021-02-20T17:54:27.000Z"
+	},
+	{
+		"id": "recprMFLpYBZIywix",
+		"fields": {
+			"id": 105,
+			"url": "https://www.vaccinehunter.org/",
+			"description": "distribution of spare vaccines",
+			"group": "USA",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccine hunters"
+			],
+			"source_type": "volunteer",
+			"country": "United States"
+		},
+		"createdTime": "2021-02-20T17:55:37.000Z"
+	},
+	{
+		"id": "recKga0JV0MyOosVg",
+		"fields": {
+			"id": 142,
+			"url": "https://findashot.org/",
+			"group": "USA",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/datasets/comments/lmafgq/selfpromotion_building_a_national_covid19_vaccine/",
+			"tags": [
+				"vaccine availability"
+			],
+			"country": "United States",
+			"type": "app"
+		},
+		"createdTime": "2021-02-25T03:54:13.000Z"
+	},
+	{
+		"id": "recWyw8R8yuvp2JF2",
+		"fields": {
+			"id": 143,
+			"url": "https://vaccinefinder.org",
+			"description": "CDC vaccine finder tooln",
+			"group": "USA",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccine availability"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"type": "app",
+			"status": "active"
+		},
+		"createdTime": "2021-02-25T04:23:24.000Z"
+	},
+	{
+		"id": "recLmtdWz82ggG3cO",
+		"fields": {
+			"id": 144,
+			"url": "https://www.vaccinespotter.org/",
+			"description": "nickm's vacine findern",
+			"group": "USA",
+			"public": true,
+			"country": "United States"
+		},
+		"createdTime": "2021-02-25T04:48:25.000Z"
+	},
+	{
+		"id": "rechW6IDrBYZXtnEj",
+		"fields": {
+			"id": 147,
+			"url": "https://getmyvaccine.org/",
+			"group": "USA",
+			"public": true,
+			"category": "volunteer project",
+			"source_type": "volunteer",
+			"country": "United States"
+		},
+		"createdTime": "2021-02-26T14:51:54.000Z"
+	},
+	{
+		"id": "rec0heRZ5yS6HxK7m",
+		"fields": {
+			"id": 163,
+			"url": "https://getvaccineanswers.org/",
+			"group": "USA",
+			"public": true,
+			"country": "United States"
+		},
+		"createdTime": "2021-02-27T17:25:18.000Z"
+	},
+	{
+		"id": "recfugitIvsKZE4QJ",
+		"fields": {
+			"id": 173,
+			"url": "https://www.covidvaccinetexts.com/",
+			"group": "USA",
+			"public": true,
+			"country": "United States"
+		},
+		"createdTime": "2021-02-27T17:35:12.000Z"
+	},
+	{
+		"id": "recmSfiqKBoKt8TUB",
+		"fields": {
+			"id": 43,
+			"url": "https://www.alabamapublichealth.gov/covid19/",
+			"group": "AL",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "AL",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:04.000Z"
+	},
+	{
+		"id": "recPFHPgCPAfPKfeC",
+		"fields": {
+			"id": 137,
+			"url": "https://bamatracker.com/",
+			"group": "AL",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/Alabama/comments/knga3u/more_vaccine_data_now_on_bama_tracker",
+			"category": "volunteer project",
+			"data_collection_format": [
+				"scraping"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "AL",
+			"type": "statistics",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-21T21:42:49.000Z"
+	},
+	{
+		"id": "rec68zfQHgKomXOFl",
+		"fields": {
+			"id": 170,
+			"url": "https://covid19.arizona.edu/vaccine",
+			"group": "AZ",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "AZ",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:12.000Z"
+	},
+	{
+		"id": "recQRa8om5876huvZ",
+		"fields": {
+			"id": 149,
+			"url": "https://covid19.colorado.gov/vaccine",
+			"group": "CO",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "CO",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-26T17:56:19.000Z"
+	},
+	{
+		"id": "recCtVJGs9fCRBFfV",
+		"fields": {
+			"id": 150,
+			"url": "https://www.facebook.com/groups/covaccinehunters/permalink/257736329242983/",
+			"group": "CO",
+			"public": true,
+			"link_title": "Colorado Vaccine Hunters Facebook Group",
+			"tags": [
+				"vaccine hunters"
+			],
+			"country": "United States",
+			"region": "CO"
+		},
+		"createdTime": "2021-02-26T18:39:26.000Z"
+	},
+	{
+		"id": "recuf4tJWBrE3dkpz",
+		"fields": {
+			"id": 171,
+			"url": "https://portal.ct.gov/Coronavirus/covid-19%20vaccinations",
+			"group": "CT",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "CT",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:12.000Z"
+	},
+	{
+		"id": "recMHLMD8CzrxXvuw",
+		"fields": {
+			"id": 46,
+			"url": "https://coronavirus.delaware.gov/",
+			"group": "DE",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "DE",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:09.000Z"
+	},
+	{
+		"id": "recWHmC50EiYRnVwt",
+		"fields": {
+			"id": 172,
+			"url": "https://coronavirus.delaware.gov/vaccine/",
+			"group": "DE",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "DE",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:12.000Z"
+	},
+	{
+		"id": "recBA5LpSbIhC98Lg",
+		"fields": {
+			"id": 28,
+			"url": "https://floridacovidaction.com/",
+			"group": "FL",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"testing",
+				"information",
+				"aggregate statistics",
+				"site finder"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "FL",
+			"type": "statistics",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-08T23:35:47.000Z"
+	},
+	{
+		"id": "rec6WJTdmgKhYXS6r",
+		"fields": {
+			"id": 53,
+			"url": "https://www.publix.com/covid-vaccine/florida",
+			"group": "FL",
+			"public": true,
+			"verification_status": "trusted",
+			"source_type": "corporation",
+			"country": "United States",
+			"region": "FL",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:17.000Z"
+	},
+	{
+		"id": "rec6KLAvNEtouCwQa",
+		"fields": {
+			"id": 73,
+			"url": "https://myvaccine.fl.gov/",
+			"group": "FL",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "FL",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-16T20:29:55.000Z"
+	},
+	{
+		"id": "recuHeqx6sGXZ7CpC",
+		"fields": {
+			"id": 20,
+			"url": "https://vaccinatega.com",
+			"group": "GA",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"tool"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "GA",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-08T23:35:38.000Z"
+	},
+	{
+		"id": "recMIt35FFvJt74ZT",
+		"fields": {
+			"id": 51,
+			"url": "https://dph.georgia.gov/covid-19-daily-status-report",
+			"group": "GA",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "GA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:14.000Z"
+	},
+	{
+		"id": "rec78hlEMecwTXLn7",
+		"fields": {
+			"id": 49,
+			"url": "https://dphss.guam.gov/covid-19/",
+			"group": "GU",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "GU",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:11.000Z"
+	},
+	{
+		"id": "rec4YoHqRZUuoAuG3",
+		"fields": {
+			"id": 169,
+			"url": "https://hawaiicovid19.com/vaccination-registration/",
+			"group": "HI",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "HI",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:11.000Z"
+	},
+	{
+		"id": "recQ3yfWlemyggggd",
+		"fields": {
+			"id": 98,
+			"url": "https://covidvaccine.idaho.gov/",
+			"group": "ID",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/nofeenews/comments/lzmwbl/idaho_launches_new_covid19_vaccine_appointment/",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "ID",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-20T06:34:02.000Z"
+	},
+	{
+		"id": "rec1Tk2Hrx9Mnitn7",
+		"fields": {
+			"id": 168,
+			"url": "https://healthandwelfare.idaho.gov/covid-19-vaccination",
+			"group": "ID",
+			"public": true,
+			"link_title": "Idaho health district contact information",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "ID",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:11.000Z"
+	},
+	{
+		"id": "recAWxZjqdqFRZ1Po",
+		"fields": {
+			"id": 39,
+			"url": "https://dph.illinois.gov/covid19",
+			"group": "IL",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information",
+				"aggregate statistics",
+				"vaccination",
+				"testing"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "IL",
+			"type": "statistics",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:30:15.000Z"
+	},
+	{
+		"id": "recMqmw8EyFLDlv0K",
+		"fields": {
+			"id": 91,
+			"url": "https://vaccinateil.org",
+			"group": "IL",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccine availability",
+				"tool"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "IL",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-20T06:33:38.000Z"
+	},
+	{
+		"id": "recT7xf3LSM7BiSue",
+		"fields": {
+			"id": 95,
+			"url": "https://coronavirus.illinois.gov/s/vaccination-location",
+			"group": "IL",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"locations",
+				"vaccination"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "IL",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-20T06:33:55.000Z"
+	},
+	{
+		"id": "recsdDZYpSv1khScE",
+		"fields": {
+			"id": 116,
+			"url": "https://www.ilvaccine.org/",
+			"group": "IL",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccine availability"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "IL",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-21T05:03:44.000Z"
+	},
+	{
+		"id": "reckmZt55hwwsESQS",
+		"fields": {
+			"id": 179,
+			"url": "https://covidvaccination.dph.illinois.gov/",
+			"group": "IL",
+			"public": true,
+			"link_title": "IL Dept of Health eligibility screening form",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "IL",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-03-02T20:29:20.000Z"
+	},
+	{
+		"id": "reco4OkOcMXkVT8FX",
+		"fields": {
+			"id": 180,
+			"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9rQdqgSJFapWJCKHA6ERzTva0W82DiEHKzG5AWkCNCaXwgwZOIgoIcN4gsdjgQr8doMLPRTfrLV_L/pubhtml",
+			"group": "IL",
+			"public": true,
+			"link_title": "COVID-19 Vaccine Signup Links for  IL",
+			"category": "volunteer project",
+			"tags": [
+				"information"
+			],
+			"country": "United States",
+			"region": "IL"
+		},
+		"createdTime": "2021-03-02T20:30:21.000Z"
+	},
+	{
+		"id": "recIvIgqLAwxlfvVk",
+		"fields": {
+			"id": 190,
+			"url": "https://docs.google.com/document/u/0/d/e/2PACX-1vTKBvpFE1ac_MdJkQc7y19_74HoXKIMBp3gvclrk8eCRHnkqEXozDh26L22wHF-R4wg8se3Adh64_TD/pub",
+			"description": "list of links to IL resourcesn",
+			"group": "IL",
+			"public": true,
+			"link_title": "Illinois Medical Professionals Vaccine Site Information Links",
+			"country": "United States",
+			"region": "IL",
+			"type": "links",
+			"audience": "public"
+		},
+		"createdTime": "2021-03-06T21:33:32.000Z"
+	},
+	{
+		"id": "rec1NKulZwf3FB0pH",
+		"fields": {
+			"id": 22,
+			"url": "https://vaccinatein.com",
+			"group": "IN",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "IN",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-08T23:35:43.000Z"
+	},
+	{
+		"id": "recMI63GhKlo4aMMZ",
+		"fields": {
+			"id": 100,
+			"url": "https://indyvax.com/",
+			"group": "IN",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"vaccine availability",
+				"vaccine/testing site locations"
+			],
+			"data_collection_format": [
+				"scraping"
+			],
+			"data_provided_format": [
+				"public webpage"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "IN",
+			"type": "app"
+		},
+		"createdTime": "2021-02-20T16:27:40.000Z"
+	},
+	{
+		"id": "recx6MXuul1Ik4Nk3",
+		"fields": {
+			"id": 42,
+			"url": "https://coronavirus.iowa.gov/",
+			"group": "IA",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information",
+				"aggregate statistics",
+				"vaccination",
+				"testing"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "IA",
+			"type": "statistics",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:34:04.000Z"
+	},
+	{
+		"id": "recrvuC71EjQUa8FX",
+		"fields": {
+			"id": 153,
+			"url": "https://www.kansasvaccine.gov/160/Find-My-Vaccine",
+			"group": "KS",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"GIS",
+				"site finder"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "KS",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T16:53:24.000Z"
+	},
+	{
+		"id": "recTEOKVys5hWys6C",
+		"fields": {
+			"id": 48,
+			"url": "https://ldh.la.gov/coronavirus/",
+			"group": "LA",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "LA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:10.000Z"
+	},
+	{
+		"id": "recY8k4kpsQYI4SEQ",
+		"fields": {
+			"id": 167,
+			"url": "https://www.maine.gov/covid19/vaccines",
+			"group": "ME",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "ME",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:11.000Z"
+	},
+	{
+		"id": "reckOfPzaw0BsQJxQ",
+		"fields": {
+			"id": 13,
+			"url": "https://maryland.maps.arcgis.com/apps/instant/nearby/index.html?appid=0dbfb100676346ed9758be319ab3f40c",
+			"description": "maryland vaccine locator",
+			"group": "MD",
+			"public": true,
+			"tags": [
+				"vaccination",
+				"tool",
+				"GIS"
+			],
+			"country": "United States",
+			"region": "MD",
+			"type": "app",
+			"audience": "public",
+			"about": "vaccine locations"
+		},
+		"createdTime": "2021-02-08T20:42:44.000Z"
+	},
+	{
+		"id": "recX2m4rTalXUgL7F",
+		"fields": {
+			"id": 14,
+			"url": "https://covidvax.maryland.gov/",
+			"description": "general covid vaccine page for md",
+			"group": "MD",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MD",
+			"type": "information",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T20:43:57.000Z"
+	},
+	{
+		"id": "recFNbebMOof68QHI",
+		"fields": {
+			"id": 36,
+			"url": "https://coronavirus.maryland.gov/",
+			"description": "Maryland COVID-19 Data Dashboard",
+			"group": "MD",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information",
+				"aggregate statistics"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MD",
+			"type": "statistics",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:22:54.000Z"
+	},
+	{
+		"id": "recuIWurchAGJOxiz",
+		"fields": {
+			"id": 123,
+			"url": "https://vaccinemi.com",
+			"group": "MI",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccine availability"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "MI",
+			"type": "app"
+		},
+		"createdTime": "2021-02-21T05:03:47.000Z"
+	},
+	{
+		"id": "recUr6Rk7AjQT06sg",
+		"fields": {
+			"id": 166,
+			"url": "https://mn.gov/covid19/vaccine/index.jsp",
+			"group": "MN",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MN",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:11.000Z"
+	},
+	{
+		"id": "recdnsudfqA5rPkrE",
+		"fields": {
+			"id": 44,
+			"url": "https://msdh.ms.gov/msdhsite/_static/14,0,420.html",
+			"group": "MS",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MS",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:07.000Z"
+	},
+	{
+		"id": "recywhWoLeiwoSyaM",
+		"fields": {
+			"id": 18,
+			"url": "https://covidvaccine.mo.gov/map/",
+			"group": "MO",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"tool",
+				"eligibility",
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MO",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T23:34:39.000Z"
+	},
+	{
+		"id": "rec54t5wSYVsrtVAd",
+		"fields": {
+			"id": 165,
+			"url": "https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/covid19vaccineavailability",
+			"group": "MT",
+			"public": true,
+			"link_title": "Montana county resource locator",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "MT",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:35:07.000Z"
+	},
+	{
+		"id": "rec54xCJZ5TAq7lZE",
+		"fields": {
+			"id": 162,
+			"url": "https://vaccinate.ne.gov/",
+			"group": "NE",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NE",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:14.000Z"
+	},
+	{
+		"id": "recEQ9Ek3BGOnSrcv",
+		"fields": {
+			"id": 45,
+			"url": "https://nvhealthresponse.nv.gov/",
+			"group": "NV",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NV",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:08.000Z"
+	},
+	{
+		"id": "reccWdcQrlgfFTqgj",
+		"fields": {
+			"id": 161,
+			"url": "https://www.vaccines.nh.gov",
+			"group": "NH",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NH",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:13.000Z"
+	},
+	{
+		"id": "recoj9AwY2khinKfs",
+		"fields": {
+			"id": 24,
+			"url": "https://vaccinatenj.com",
+			"description": "https://covid19vaccinestatusnj.com/ also points to the same place",
+			"group": "NJ",
+			"public": true,
+			"category": "volunteer project",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "NJ",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-08T23:35:44.000Z"
+	},
+	{
+		"id": "recsiI9L2x7HcVpxq",
+		"fields": {
+			"id": 25,
+			"url": "https://vaccinatenm.com",
+			"description": "redirects to state resource",
+			"group": "NM",
+			"public": true,
+			"category": "government resource",
+			"tags": [
+				"vaccination"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NM",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T23:35:46.000Z"
+	},
+	{
+		"id": "recBfTrnOCrouIaOC",
+		"fields": {
+			"id": 159,
+			"url": "https://covid19.ncdhhs.gov/vaccines/find-your-spot-take-your-shot",
+			"group": "NC",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "NC",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:13.000Z"
+	},
+	{
+		"id": "recDMKlRuPFa7HDmT",
+		"fields": {
+			"id": 160,
+			"url": "https://www.health.nd.gov/covidvaccinelocator",
+			"group": "ND",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "ND",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:13.000Z"
+	},
+	{
+		"id": "recn9s8xnyBVcJ31R",
+		"fields": {
+			"id": 158,
+			"url": "https://vaccine.coronavirus.ohio.gov",
+			"group": "OH",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "OH",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:12.000Z"
+	},
+	{
+		"id": "recwqaLjVii4w0jVP",
+		"fields": {
+			"id": 155,
+			"url": "https://vaccinate.oklahoma.gov/",
+			"group": "OK",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "OK",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:06:54.000Z"
+	},
+	{
+		"id": "recV3SpaicH21Ej6l",
+		"fields": {
+			"id": 11,
+			"url": "https://covidvaccine.oregon.gov/",
+			"group": "OR",
+			"public": true,
+			"source_url": "https://www.oregonlive.com/news/2021/02/oregonians-ages-80-and-older-can-book-covid-19-vaccinations-online-right-now-but-appointments-in-the-portland-area-are-going-fast.html",
+			"category": "government resource",
+			"tags": [
+				"vaccination",
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "OR",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-08T18:07:09.000Z"
+	},
+	{
+		"id": "recmJlHLrtdvDZ5si",
+		"fields": {
+			"id": 59,
+			"url": "https://www.getvaccinated.oregon.gov/#/",
+			"description": "oregon vaccination tool",
+			"group": "OR",
+			"public": true,
+			"source_url": "https://www.opb.org/article/2021/02/12/oregon-washington-covid-19-vaccine-pharmacies-stores/",
+			"category": "government resource",
+			"tags": [
+				"data"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "OR",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-13T02:46:14.000Z"
+	},
+	{
+		"id": "recAgtljlfsV9Y9WB",
+		"fields": {
+			"id": 200,
+			"url": "https://docs.google.com/spreadsheets/d/1kJaFK8HzaMchVbnFhzbkh845aHRg3hJZBJNnWM4i92g/edit?usp=sharing",
+			"group": "OR",
+			"public": true,
+			"source_url": "https://www.oregon.gov/oha/covid19/Pages/vaccine-information-by-county.aspx",
+			"link_title": "List of vaccine information by county and vaccination group",
+			"category": "volunteer document",
+			"tags": [
+				"contact info"
+			],
+			"data_collection_format": [
+				"manual"
+			],
+			"data_provided_format": [
+				"spreadsheet"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "OR",
+			"type": "information",
+			"audience": "public"
+		},
+		"createdTime": "2021-03-09T17:59:39.000Z"
+	},
+	{
+		"id": "recoINISh5QjyVOzc",
+		"fields": {
+			"id": 88,
+			"url": "https://vaccinatepa.org/",
+			"group": "PA",
+			"public": true,
+			"source_url": "https://www.wtae.com/article/pitt-students-volunteer-to-create-website-to-help-pennsylvanians-find-covid-19-vaccines/35426401#",
+			"category": "volunteer project",
+			"tags": [
+				"vaccine availability",
+				"tool"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "PA",
+			"type": "app",
+			"audience": "public"
+		},
+		"createdTime": "2021-02-19T20:56:27.000Z"
+	},
+	{
+		"id": "recDEwSOnG7cAgKrQ",
+		"fields": {
+			"id": 139,
+			"url": "https://www.vaccinateri.org/",
+			"group": "RI",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "RI",
+			"status": "active"
+		},
+		"createdTime": "2021-02-22T06:27:46.000Z"
+	},
+	{
+		"id": "receI9A0v3tr8vuvA",
+		"fields": {
+			"id": 40,
+			"url": "https://www.tn.gov/health/cedep/ncov.html",
+			"group": "TN",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information",
+				"aggregate statistics",
+				"vaccination",
+				"testing"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "TN",
+			"type": "statistics",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:30:50.000Z"
+	},
+	{
+		"id": "recSu1BD4kBXOGvpw",
+		"fields": {
+			"id": 185,
+			"url": "https://www.facebook.com/groups/1089267921534517/",
+			"group": "TN",
+			"public": true,
+			"link_title": "Tennessee Vaccine Hunters Facebook Group",
+			"category": "volunteer group",
+			"country": "United States",
+			"region": "TN"
+		},
+		"createdTime": "2021-03-03T03:33:06.000Z"
+	},
+	{
+		"id": "recBf28xCUd5LwURl",
+		"fields": {
+			"id": 47,
+			"url": "https://coronavirus-dashboard.utah.gov/#overview",
+			"group": "UT",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "UT",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:35:10.000Z"
+	},
+	{
+		"id": "recFS8d72KHYvOPsS",
+		"fields": {
+			"id": 31,
+			"url": "https://www.healthvermont.gov/covid-19/vaccine",
+			"group": "VT",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "VT",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-09T05:44:41.000Z"
+	},
+	{
+		"id": "recSb91yZjelruFNs",
+		"fields": {
+			"id": 38,
+			"url": "https://www.vdh.virginia.gov/coronavirus/",
+			"description": "page that links to different VA covid resources",
+			"group": "VA",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "VA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:29:09.000Z"
+	},
+	{
+		"id": "recPbcN7C5PLqevai",
+		"fields": {
+			"id": 82,
+			"url": "https://vaccinate.virginia.gov",
+			"group": "VA",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "VA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-18T06:39:03.000Z"
+	},
+	{
+		"id": "recutho004IORcCCm",
+		"fields": {
+			"id": 156,
+			"url": "http://www.vaccinate.wv.gov/",
+			"group": "WV",
+			"public": true,
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "WV",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:11.000Z"
+	},
+	{
+		"id": "recH4RxWWASgbkDXg",
+		"fields": {
+			"id": 41,
+			"url": "https://www.dhs.wisconsin.gov/covid-19/index.htm",
+			"group": "WI",
+			"public": true,
+			"source_url": "https://github.com/CSSEGISandData/COVID-19",
+			"category": "government resource",
+			"tags": [
+				"information"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "WI",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-10T15:33:41.000Z"
+	},
+	{
+		"id": "recS9TPolhS6VXneP",
+		"fields": {
+			"id": 157,
+			"url": "https://health.wyo.gov/publichealth/immunization/wyoming-covid-19-vaccine-information/county-covid-19-vaccine-information/",
+			"group": "WY",
+			"public": true,
+			"link_title": "Wyoming Vaccination information by county",
+			"category": "government resource",
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "WY",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-27T17:20:12.000Z"
+	},
+	{
+		"id": "recO4LL7B4KABjavt",
+		"fields": {
+			"id": 71,
+			"url": "https://www.covidwa.com/",
+			"group": "WA",
+			"public": true,
+			"source_url": "https://www.reddit.com/r/Seattle/comments/lhcmfd/were_making_an_automated_allinone_vaccine/",
+			"category": "volunteer project",
+			"tags": [
+				"vaccine availability",
+				"vaccination",
+				"vaccine/testing site locations"
+			],
+			"verification_status": "reported in media",
+			"data_collection_format": [
+				"scraping",
+				"api",
+				"crowdsource"
+			],
+			"data_provided_format": [
+				"public webpage",
+				"api"
+			],
+			"source_type": "volunteer",
+			"country": "United States",
+			"region": "WA",
+			"type": "app",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-16T19:55:17.000Z"
+	},
+	{
+		"id": "recH9c4dS9IFPlwRE",
+		"fields": {
+			"id": 74,
+			"url": "https://findyourphasewa.org",
+			"group": "WA",
+			"public": true,
+			"link_title": "WA COVID phase checker",
+			"category": "government resource",
+			"tags": [
+				"eligibility",
+				"tool"
+			],
+			"verification_status": "government resource",
+			"source_type": "government",
+			"country": "United States",
+			"region": "WA",
+			"audience": "public",
+			"status": "active"
+		},
+		"createdTime": "2021-02-16T22:15:25.000Z"
+	}
+]

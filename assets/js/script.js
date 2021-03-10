@@ -26,3 +26,18 @@ export const retrieveFromStorage = () => {
 	console.log("retrieving from storage")
 	return JSON.parse(localStorage.getItem("vacFind-links"))
 }
+
+
+export const retrieveBackupData = async () => {
+	console.log("retrieving from backup")
+
+	const json = await fetch('/assets/js/backupdata.json')
+		.then(response => {
+			if (!response.ok) {
+				throw new Error("HTTP error  retrieving backup data" + response.status);
+			}
+			return response.json();
+		})
+	return json
+}
+
