@@ -23,7 +23,7 @@ tagline: A national directory of COVID Vaccine resources
 logo: /assets/images/vacfind.jpeg
 email: contact@vacfind.org
 description: >- # this means to ignore newlines until "baseurl:"
-  VacFind is a national directory of projects run by states and volunteer groups that are designed to help more people find available vaccine appointments and more information about the vaccination programs for their area.
+  VacFind is a national directory of COVID vaccination resources to help more people find available appointments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vacfind.org" # the base hostname & protocol for your site, e.g. http://example.com
 analytics: true
