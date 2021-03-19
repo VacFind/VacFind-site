@@ -25,6 +25,9 @@ layout: default
 	VacFind is currently only providing links to US-based resources, however, the moderators of the r/Coronavirus subreddit have published a list of <a href="https://www.reddit.com/r/Coronavirus/wiki/faq/vaccinefinder">international resources for finding COVID vaccines</a>.</p>
 
 	<div id="link-list"></div>
+	<noscript>
+		{% include noscript-backup.html %}
+	</noscript>
 
 	<script type="module" >
 		import { loadLinks, retrieveFromStorage, retrieveBackupData } from '/assets/js/script.js';
