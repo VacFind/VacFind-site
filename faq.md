@@ -9,6 +9,8 @@ permalink: /faq
 ### As a user of the site:
 If you found VacFind useful and want to support us, the most helpful thing you can do is to share a link our site on social media and help us spread the word. This allows us to help more people find vaccines.
 
+You can find links to automatically draft posts for many popular social media sites [at the bottom of our homepage]({% link index.html %}#share-this-site )
+
 You can also join our [discord server]({{site.social.discord}}) or help us reach our funding goals on our [OpenCollective page][2].
 
 ### As a Developer:
