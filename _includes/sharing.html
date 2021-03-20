@@ -1,6 +1,6 @@
-<div id="share-bar">
+<div class="social-links">
+	<ul class="social-media-list">
 
-	<div class="share-buttons">
 		{% for share in site.data.sharing %}
 
 			{% assign full_url = share.urlprefix | append: "?" %}
@@ -11,12 +11,16 @@
 
 			{% assign full_url = full_url | replace: " ", "%20" %}
 
-			<a href="{{full_url}}" title="Share on {{share.name}}" target="_blank" rel="noopener" aria-label="Share on {{share.name}}" >
-				<i class="{{share.icon}} share-button">{{share.name}}</i>
-			</a>
+			<li>
+				<a href="{{full_url}}" title="Share on {{share.name}}" target="_blank" rel="noopener" aria-label="Share on {{share.name}}" >
+					<div class="sharing-button" style="background-color: #{{share.color}}">
+						<i class="{{share.icon}} social-icon"></i> {{share.name}}
+					</div>
+				</a>
+			</li>
 
 			{% assign full_url = "" %}
 		{% endfor %}
-	</div>
+	</ul>
 
 </div>
