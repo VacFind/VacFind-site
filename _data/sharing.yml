@@ -1,0 +1,46 @@
+- name: Facebook
+  urlprefix: https://www.facebook.com/sharer/sharer.php
+  parameters:
+    u:
+  icon: fa fa-facebook-official
+
+- name: Twitter
+  urlprefix: https://twitter.com/intent/tweet
+  parameters:
+    text: VacFind national directory of COVID vaccination resources
+    url: https://vacfind.org
+  icon: fa fa-twitter
+
+- name: Pinterest
+  urlprefix: https://www.pinterest.com/pin/create/button/
+  parameters:
+    url: https://vacfind.org
+  icon: fa fa-pinterest-p
+
+- name: Tumblr
+  urlprefix: https://www.tumblr.com/share/link
+  parameters:
+    url: https://vacfind.org
+  icon: fa fa-tumblr
+
+- name: Reddit
+  urlprefix: http://www.reddit.com/submit
+  parameters:
+    url: https://vacfind.org
+  icon: fa fa-reddit-alien
+
+- name: Linkedin
+  urlprefix: https://www.linkedin.com/shareArticle
+  parameters:
+    mini: true
+    url: https://vacfind.org
+    title: VacFind Resource Directory
+    summary: VacFind national directory of COVID vaccination resources
+    source: https://vacfind.org
+  icon: fa fa-linkedin
+
+- name: WhatsApp
+  urlprefix: whatsapp://send
+  parameters:
+    text: VacFind national directory of COVID vaccination resources
+  icon: fa fa-whatsapp

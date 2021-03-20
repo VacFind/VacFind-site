@@ -1,0 +1,22 @@
+<div id="share-bar">
+
+	<div class="share-buttons">
+		{% for share in site.data.sharing %}
+
+			{% assign full_url = share.urlprefix | append: "?" %}
+			
+			{% for parameter in share.parameters %}
+				{% assign full_url = full_url | append: parameter[0] | append: "=" | append: parameter[1] | append: "&" %}
+			{% endfor %}
+
+			{% assign full_url = full_url | replace: " ", "%20" %}
+
+			<a href="{{full_url}}" title="Share on {{share.name}}" target="_blank" rel="noopener" aria-label="Share on {{share.name}}" >
+				<i class="{{share.icon}} share-button">{{share.name}}</i>
+			</a>
+
+			{% assign full_url = "" %}
+		{% endfor %}
+	</div>
+
+</div>
