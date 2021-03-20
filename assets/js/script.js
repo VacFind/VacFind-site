@@ -98,7 +98,7 @@ const generateSelectionOptions = (option_list) => {
 }
 
 
-export const retrieveBackupData = async () => {
+const retrieveBackupData = async () => {
 	console.log("retrieving from backup")
 
 	const json = await fetch('/assets/js/backupdata.json')
