@@ -1,14 +1,14 @@
 - name: Facebook
   urlprefix: https://www.facebook.com/sharer/sharer.php
   parameters:
-    u:
+    u: https://vacfind.org
   icon: fa fa-facebook-official
   color: 2d4373
 
 - name: Twitter
   urlprefix: https://twitter.com/intent/tweet
   parameters:
-    text: VacFind national directory of COVID vaccination resources
+    text: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
     url: https://vacfind.org
   icon: fa fa-twitter
   color: 55acee
@@ -17,13 +17,19 @@
   urlprefix: https://www.pinterest.com/pin/create/button/
   parameters:
     url: https://vacfind.org
+    media: https://vacfind.org
+    description: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
   icon: fa fa-pinterest-p
   color: bd081c
 
 - name: Tumblr
-  urlprefix: https://www.tumblr.com/share/link
+  urlprefix: https://www.tumblr.com/widgets/share/tool
   parameters:
-    url: https://vacfind.org
+    canonicalUrl: https://vacfind.org
+    posttype: link
+    title: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
+    caption: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
+    content: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
   icon: fa fa-tumblr
   color: 222d3c
 
@@ -31,6 +37,8 @@
   urlprefix: http://www.reddit.com/submit
   parameters:
     url: https://vacfind.org
+    resubmit: true
+    title: "VacFind: national directory of COVID vaccination resources to help you find a vaccine"
   icon: fa fa-reddit-alien
   color: 3a80c1
 
@@ -40,7 +48,7 @@
     mini: true
     url: https://vacfind.org
     title: VacFind Resource Directory
-    summary: VacFind national directory of COVID vaccination resources
+    summary: VacFind is a national directory of COVID vaccination resources to help you find a vaccine.
     source: https://vacfind.org
   icon: fa fa-linkedin
   color: 046293
@@ -48,6 +56,6 @@
 - name: WhatsApp
   urlprefix: whatsapp://send
   parameters:
-    text: VacFind national directory of COVID vaccination resources
+    text: I used VacFind to save time looking for vaccination resources and thought you might find it useful. https://vacfind.org
   icon: fa fa-whatsapp
   color: 1da851
