@@ -19,7 +19,7 @@ layout: default
 		</ul> 
 	</p>
 
-	<p>If you want to help out or suggest a change or addition to our list, please fill out <a href="{{site.data.link-corrections}}">this form</a> or come chat with our team on <a href="{{site.social.discord}}">Discord</a>!</p>
+	<p>If you want to help out or suggest a change or addition to our list, please fill out <a href="{{site.links.corrections}}">this form</a> or come chat with our team on <a href="{{site.social.discord}}">Discord</a>!</p>
 
 	<p><strong>Looking for international COVID-19 resources?</strong><br>
 	VacFind is currently only providing links to US-based resources, however, the moderators of the r/Coronavirus subreddit have published a list of <a href="https://www.reddit.com/r/Coronavirus/wiki/faq/vaccinefinder">international resources for finding COVID vaccines</a>.</p>
@@ -28,6 +28,12 @@ layout: default
 	<noscript>
 		{% include noscript-backup.html %}
 	</noscript>
+
+	<h2 id="share-this-site">Has VacFind helped you?</h2>
+	<p>If VacFind has saved you time looking for a vaccine, please consider sharing on social media. It is by far the best way you can help spread the word and help someone else get vaccinated.</p>
+	
+	{% include sharing.html %}
+
 
 	<script type="module" >
 		import { loadLinks, retrieveFromStorage, retrieveBackupData } from '/assets/js/script.js';

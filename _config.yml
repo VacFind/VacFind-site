@@ -69,8 +69,8 @@ social:
 # submit a donation link
 donations: https://opencollective.com/vacfind/donate
 
-data:
-  link-corrections: https://airtable.com/tblpaXLQbqVkhoaYI/viwSVkWjmdrFkskyF
+links:
+  corrections: https://airtable.com/tblpaXLQbqVkhoaYI/viwSVkWjmdrFkskyF
   map-source: https://covid-19-giscorps.hub.arcgis.com/
   map-corrections:
     

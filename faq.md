@@ -9,6 +9,8 @@ permalink: /faq
 ### As a user of the site:
 If you found VacFind useful and want to support us, the most helpful thing you can do is to share a link our site on social media and help us spread the word. This allows us to help more people find vaccines.
 
+You can find links to automatically draft posts for many popular social media sites [at the bottom of our homepage]({% link index.html %}#share-this-site )
+
 You can also join our [discord server]({{site.social.discord}}) or help us reach our funding goals on our [OpenCollective page][2].
 
 ### As a Developer:
@@ -18,11 +20,11 @@ We are also on [github](https://github.com/{{site.social.github_username}}) and 
 
 
 ## How do I submit a new link or correct an existing one?
-We have a [form]({{site.data.link-corrections}}) for submitting updates and additions to our links
+We have a [form]({{site.links.corrections}}) for submitting updates and additions to our links
 
 ## Where do you get your data?
 Our list of links is currently being updated as we find new resources that are helpful to people. While we do try to actively discover new services through places like social media (and others), we mainly rely on people letting us know about new links that arent currently on our site!
-<!-- Our vaccination site locations primarily come from  [mapping layers provided by GISCorps]({{site.data.map-source}}). We are also currently looking into other methods of collecting data.  -->
+<!-- Our vaccination site locations primarily come from  [mapping layers provided by GISCorps]({{site.links.map-source}}). We are also currently looking into other methods of collecting data.  -->
 
 
 ## Do you Accept Donations?
