@@ -34,7 +34,7 @@ Yes but it is absolutely not necessary. Donations primarily allow us to provide 
 
 ## What information do you collect about visitors to the site.
 
-VacFind collects no personal information about visitors to our of this site. We use the open-source analytics tool Matomo to collect anonymous information about aggregate traffic patterns, and generic information like your device screen size and operating system. This helps us understand how visitors find and use our site and ensure our site is compatible with your device.
+VacFind collects no personal information about visitors to our site. We use the open-source analytics tool Matomo to collect anonymous information about aggregate traffic patterns, as well as some generic information like your device screen size and operating system. This helps us understand how visitors find and use our site and allows us to ensure our site is compatible with your device.
 
 We take thorough measures to ensure that the information collection respects your privacy as much as possible. We only store a small portion of all IP addresses and we respect any DNT (Do Not Track) signals sent by your browser.
 
