@@ -31,9 +31,17 @@ Our list of links is currently being updated as we find new resources that are h
 
 Yes but it is absolutely not necessary. Donations primarily allow us to provide better support to other smaller projects and contribute more time to the VacFind site and our related tools. You can support VacFind with a tax-deductible donation or see our finances on [our  OpenCollective page][2]. 
 
+
+## What information do you collect about visitors to the site.
+
+VacFind collects no personal information about visitors to our of this site. We use the open-source analytics tool Matomo to collect anonymous information about aggregate traffic patterns, and generic information like your device screen size and operating system. This helps us understand how visitors find and use our site and ensure our site is compatible with your device.
+
+We take thorough measures to ensure that the information collection respects your privacy as much as possible. We only store a small portion of all IP addresses and we respect any DNT (Do Not Track) signals sent by your browser.
+
+
 ## Contact Us
 
-If you would like to get in touch with us, you can come chat on our [discord server]({{site.social.discord}}) or reach out via [email][1]. 
+If you have questions or would like to get in touch with us, you can come chat on our [discord server]({{site.social.discord}}) or reach out via [email][1]. 
 
 [1]: mailto:{{site.contact.email}}
 [2]: {{site.social.opencollective}}
