@@ -31,7 +31,7 @@ export const retrieveFromStorage = () => {
 export const retrieveBackupData = async () => {
 	console.log("retrieving from backup")
 
-	const json = await fetch('/assets/js/backupdata.json')
+	const json = await fetch('/VacFind-site/assets/js/backupdata.json')
 		.then(response => {
 			if (!response.ok) {
 				throw new Error("HTTP error  retrieving backup data" + response.status);
